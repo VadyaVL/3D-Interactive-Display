@@ -1,0 +1,2624 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AForge.Math.2.2.4.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:AForge.Math.Fakes.ShimComplex">
+            <summary>Shim type of AForge.Math.Complex</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimComplex.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimComplex.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimComplex.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.AddComplexComplex">
+            <summary>Sets the shim of Complex.Add(Complex a, Complex b)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.AddComplexComplexComplexRef">
+            <summary>Sets the shim of Complex.Add(Complex a, Complex b, Complex&amp; result)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.AddComplexDouble">
+            <summary>Sets the shim of Complex.Add(Complex a, Double s)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.AddComplexDoubleComplexRef">
+            <summary>Sets the shim of Complex.Add(Complex a, Double s, Complex&amp; result)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.AdditionOpComplexComplex">
+            <summary>Sets the shim of Complex.op_Addition(Complex a, Complex b)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.AdditionOpComplexDouble">
+            <summary>Sets the shim of Complex.op_Addition(Complex a, Double s)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.AdditionOpDoubleComplex">
+            <summary>Sets the shim of Complex.op_Addition(Double s, Complex a)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.ApproxEqualComplexComplex">
+            <summary>Sets the shim of Complex.ApproxEqual(Complex a, Complex b)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.ApproxEqualComplexComplexDouble">
+            <summary>Sets the shim of Complex.ApproxEqual(Complex a, Complex b, Double tolerance)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.CosComplex">
+            <summary>Sets the shim of Complex.Cos(Complex a)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.DivideComplexComplex">
+            <summary>Sets the shim of Complex.Divide(Complex a, Complex b)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.DivideComplexComplexComplexRef">
+            <summary>Sets the shim of Complex.Divide(Complex a, Complex b, Complex&amp; result)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.DivideComplexDouble">
+            <summary>Sets the shim of Complex.Divide(Complex a, Double s)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.DivideComplexDoubleComplexRef">
+            <summary>Sets the shim of Complex.Divide(Complex a, Double s, Complex&amp; result)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.DivideDoubleComplex">
+            <summary>Sets the shim of Complex.Divide(Double s, Complex a)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.DivideDoubleComplexComplexRef">
+            <summary>Sets the shim of Complex.Divide(Double s, Complex a, Complex&amp; result)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.DivisionOpComplexComplex">
+            <summary>Sets the shim of Complex.op_Division(Complex a, Complex b)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.DivisionOpComplexDouble">
+            <summary>Sets the shim of Complex.op_Division(Complex a, Double s)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.DivisionOpDoubleComplex">
+            <summary>Sets the shim of Complex.op_Division(Double s, Complex a)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.EqualityOpComplexComplex">
+            <summary>Sets the shim of Complex.op_Equality(Complex u, Complex v)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.ExpComplex">
+            <summary>Sets the shim of Complex.Exp(Complex a)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.ExplicitOpDoubleComplex">
+            <summary>Sets the shim of Complex.op_Explicit(Double value)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.ExplicitOpSingleComplex">
+            <summary>Sets the shim of Complex.op_Explicit(Single value)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.InequalityOpComplexComplex">
+            <summary>Sets the shim of Complex.op_Inequality(Complex u, Complex v)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.LogComplex">
+            <summary>Sets the shim of Complex.Log(Complex a)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.MultiplyComplexComplex">
+            <summary>Sets the shim of Complex.Multiply(Complex a, Complex b)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.MultiplyComplexComplexComplexRef">
+            <summary>Sets the shim of Complex.Multiply(Complex a, Complex b, Complex&amp; result)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.MultiplyComplexDouble">
+            <summary>Sets the shim of Complex.Multiply(Complex a, Double s)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.MultiplyComplexDoubleComplexRef">
+            <summary>Sets the shim of Complex.Multiply(Complex a, Double s, Complex&amp; result)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.MultiplyOpComplexComplex">
+            <summary>Sets the shim of Complex.op_Multiply(Complex a, Complex b)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.MultiplyOpComplexDouble">
+            <summary>Sets the shim of Complex.op_Multiply(Complex a, Double s)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.MultiplyOpDoubleComplex">
+            <summary>Sets the shim of Complex.op_Multiply(Double s, Complex a)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.NegateComplex">
+            <summary>Sets the shim of Complex.Negate(Complex a)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.ParseString">
+            <summary>Sets the shim of Complex.Parse(String s)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.SinComplex">
+            <summary>Sets the shim of Complex.Sin(Complex a)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.SqrtComplex">
+            <summary>Sets the shim of Complex.Sqrt(Complex a)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.StaticConstructor">
+            <summary>Sets the shim of Complex.Complex()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.SubtractComplexComplex">
+            <summary>Sets the shim of Complex.Subtract(Complex a, Complex b)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.SubtractComplexComplexComplexRef">
+            <summary>Sets the shim of Complex.Subtract(Complex a, Complex b, Complex&amp; result)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.SubtractComplexDouble">
+            <summary>Sets the shim of Complex.Subtract(Complex a, Double s)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.SubtractComplexDoubleComplexRef">
+            <summary>Sets the shim of Complex.Subtract(Complex a, Double s, Complex&amp; result)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.SubtractDoubleComplex">
+            <summary>Sets the shim of Complex.Subtract(Double s, Complex a)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.SubtractDoubleComplexComplexRef">
+            <summary>Sets the shim of Complex.Subtract(Double s, Complex a, Complex&amp; result)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.SubtractionOpComplexComplex">
+            <summary>Sets the shim of Complex.op_Subtraction(Complex a, Complex b)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.SubtractionOpComplexDouble">
+            <summary>Sets the shim of Complex.op_Subtraction(Complex a, Double s)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.SubtractionOpDoubleComplex">
+            <summary>Sets the shim of Complex.op_Subtraction(Double s, Complex a)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.TanComplex">
+            <summary>Sets the shim of Complex.Tan(Complex a)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.TryParseStringComplexOut">
+            <summary>Sets the shim of Complex.TryParse(String s, Complex&amp; result)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimComplex.UnaryNegationOpComplex">
+            <summary>Sets the shim of Complex.op_UnaryNegation(Complex a)</summary>
+        </member>
+        <member name="T:AForge.Math.Fakes.ShimComplex.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:AForge.Math.Fakes.ShimContinuousHistogram">
+            <summary>Shim type of AForge.Math.ContinuousHistogram</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimContinuousHistogram.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimContinuousHistogram.#ctor(AForge.Math.ContinuousHistogram)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimContinuousHistogram.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimContinuousHistogram.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimContinuousHistogram.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimContinuousHistogram.ConstructorInt32ArrayRange">
+            <summary>Sets the shim of ContinuousHistogram.ContinuousHistogram(Int32[] values, Range range)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimContinuousHistogram.GetRangeSingle">
+            <summary>Sets the shim of ContinuousHistogram.GetRange(Single percent)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimContinuousHistogram.MaxGet">
+            <summary>Sets the shim of ContinuousHistogram.get_Max()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimContinuousHistogram.MeanGet">
+            <summary>Sets the shim of ContinuousHistogram.get_Mean()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimContinuousHistogram.MedianGet">
+            <summary>Sets the shim of ContinuousHistogram.get_Median()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimContinuousHistogram.MinGet">
+            <summary>Sets the shim of ContinuousHistogram.get_Min()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimContinuousHistogram.RangeGet">
+            <summary>Sets the shim of ContinuousHistogram.get_Range()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimContinuousHistogram.StdDevGet">
+            <summary>Sets the shim of ContinuousHistogram.get_StdDev()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimContinuousHistogram.Update">
+            <summary>Sets the shim of ContinuousHistogram.Update()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimContinuousHistogram.ValuesGet">
+            <summary>Sets the shim of ContinuousHistogram.get_Values()</summary>
+        </member>
+        <member name="T:AForge.Math.Fakes.ShimContinuousHistogram.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimContinuousHistogram.AllInstances.GetRangeSingle">
+            <summary>Sets the shim of ContinuousHistogram.GetRange(Single percent)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimContinuousHistogram.AllInstances.MaxGet">
+            <summary>Sets the shim of ContinuousHistogram.get_Max()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimContinuousHistogram.AllInstances.MeanGet">
+            <summary>Sets the shim of ContinuousHistogram.get_Mean()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimContinuousHistogram.AllInstances.MedianGet">
+            <summary>Sets the shim of ContinuousHistogram.get_Median()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimContinuousHistogram.AllInstances.MinGet">
+            <summary>Sets the shim of ContinuousHistogram.get_Min()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimContinuousHistogram.AllInstances.RangeGet">
+            <summary>Sets the shim of ContinuousHistogram.get_Range()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimContinuousHistogram.AllInstances.StdDevGet">
+            <summary>Sets the shim of ContinuousHistogram.get_StdDev()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimContinuousHistogram.AllInstances.Update">
+            <summary>Sets the shim of ContinuousHistogram.Update()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimContinuousHistogram.AllInstances.ValuesGet">
+            <summary>Sets the shim of ContinuousHistogram.get_Values()</summary>
+        </member>
+        <member name="T:AForge.Math.Fakes.ShimFourierTransform">
+            <summary>Shim type of AForge.Math.FourierTransform</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimFourierTransform.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimFourierTransform.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimFourierTransform.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimFourierTransform.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimFourierTransform.DFT2ComplexMdArray2FourierTransformDirection">
+            <summary>Sets the shim of FourierTransform.DFT2(Complex[,] data, Direction direction)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimFourierTransform.DFTComplexArrayFourierTransformDirection">
+            <summary>Sets the shim of FourierTransform.DFT(Complex[] data, Direction direction)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimFourierTransform.FFT2ComplexMdArray2FourierTransformDirection">
+            <summary>Sets the shim of FourierTransform.FFT2(Complex[,] data, Direction direction)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimFourierTransform.FFTComplexArrayFourierTransformDirection">
+            <summary>Sets the shim of FourierTransform.FFT(Complex[] data, Direction direction)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimFourierTransform.GetComplexRotationInt32FourierTransformDirection">
+            <summary>Sets the shim of FourierTransform.GetComplexRotation(Int32 numberOfBits, Direction direction)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimFourierTransform.GetReversedBitsInt32">
+            <summary>Sets the shim of FourierTransform.GetReversedBits(Int32 numberOfBits)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimFourierTransform.ReorderDataComplexArray">
+            <summary>Sets the shim of FourierTransform.ReorderData(Complex[] data)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimFourierTransform.StaticConstructor">
+            <summary>Sets the shim of FourierTransform.FourierTransform()</summary>
+        </member>
+        <member name="T:AForge.Math.Fakes.ShimGaussian">
+            <summary>Shim type of AForge.Math.Gaussian</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimGaussian.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimGaussian.#ctor(AForge.Math.Gaussian)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimGaussian.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimGaussian.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimGaussian.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimGaussian.Constructor">
+            <summary>Sets the shim of Gaussian.Gaussian()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimGaussian.ConstructorDouble">
+            <summary>Sets the shim of Gaussian.Gaussian(Double sigma)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimGaussian.Function2DDoubleDouble">
+            <summary>Sets the shim of Gaussian.Function2D(Double x, Double y)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimGaussian.FunctionDouble">
+            <summary>Sets the shim of Gaussian.Function(Double x)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimGaussian.Kernel2DInt32">
+            <summary>Sets the shim of Gaussian.Kernel2D(Int32 size)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimGaussian.KernelInt32">
+            <summary>Sets the shim of Gaussian.Kernel(Int32 size)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimGaussian.SigmaGet">
+            <summary>Sets the shim of Gaussian.get_Sigma()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimGaussian.SigmaSetDouble">
+            <summary>Sets the shim of Gaussian.set_Sigma(Double value)</summary>
+        </member>
+        <member name="T:AForge.Math.Fakes.ShimGaussian.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimGaussian.AllInstances.Function2DDoubleDouble">
+            <summary>Sets the shim of Gaussian.Function2D(Double x, Double y)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimGaussian.AllInstances.FunctionDouble">
+            <summary>Sets the shim of Gaussian.Function(Double x)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimGaussian.AllInstances.Kernel2DInt32">
+            <summary>Sets the shim of Gaussian.Kernel2D(Int32 size)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimGaussian.AllInstances.KernelInt32">
+            <summary>Sets the shim of Gaussian.Kernel(Int32 size)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimGaussian.AllInstances.SigmaGet">
+            <summary>Sets the shim of Gaussian.get_Sigma()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimGaussian.AllInstances.SigmaSetDouble">
+            <summary>Sets the shim of Gaussian.set_Sigma(Double value)</summary>
+        </member>
+        <member name="T:AForge.Math.Fakes.ShimHistogram">
+            <summary>Shim type of AForge.Math.Histogram</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimHistogram.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimHistogram.#ctor(AForge.Math.Histogram)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimHistogram.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimHistogram.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimHistogram.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimHistogram.ConstructorInt32Array">
+            <summary>Sets the shim of Histogram.Histogram(Int32[] values)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimHistogram.GetRangeDouble">
+            <summary>Sets the shim of Histogram.GetRange(Double percent)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimHistogram.MaxGet">
+            <summary>Sets the shim of Histogram.get_Max()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimHistogram.MeanGet">
+            <summary>Sets the shim of Histogram.get_Mean()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimHistogram.MedianGet">
+            <summary>Sets the shim of Histogram.get_Median()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimHistogram.MinGet">
+            <summary>Sets the shim of Histogram.get_Min()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimHistogram.StdDevGet">
+            <summary>Sets the shim of Histogram.get_StdDev()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimHistogram.TotalCountGet">
+            <summary>Sets the shim of Histogram.get_TotalCount()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimHistogram.Update">
+            <summary>Sets the shim of Histogram.Update()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimHistogram.ValuesGet">
+            <summary>Sets the shim of Histogram.get_Values()</summary>
+        </member>
+        <member name="T:AForge.Math.Fakes.ShimHistogram.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimHistogram.AllInstances.GetRangeDouble">
+            <summary>Sets the shim of Histogram.GetRange(Double percent)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimHistogram.AllInstances.MaxGet">
+            <summary>Sets the shim of Histogram.get_Max()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimHistogram.AllInstances.MeanGet">
+            <summary>Sets the shim of Histogram.get_Mean()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimHistogram.AllInstances.MedianGet">
+            <summary>Sets the shim of Histogram.get_Median()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimHistogram.AllInstances.MinGet">
+            <summary>Sets the shim of Histogram.get_Min()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimHistogram.AllInstances.StdDevGet">
+            <summary>Sets the shim of Histogram.get_StdDev()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimHistogram.AllInstances.TotalCountGet">
+            <summary>Sets the shim of Histogram.get_TotalCount()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimHistogram.AllInstances.Update">
+            <summary>Sets the shim of Histogram.Update()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimHistogram.AllInstances.ValuesGet">
+            <summary>Sets the shim of Histogram.get_Values()</summary>
+        </member>
+        <member name="T:AForge.Math.Fakes.ShimMatrix3x3">
+            <summary>Shim type of AForge.Math.Matrix3x3</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimMatrix3x3.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimMatrix3x3.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimMatrix3x3.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix3x3.AddMatrix3x3Matrix3x3">
+            <summary>Sets the shim of Matrix3x3.Add(Matrix3x3 matrix1, Matrix3x3 matrix2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix3x3.AddMatrix3x3Single">
+            <summary>Sets the shim of Matrix3x3.Add(Matrix3x3 matrix, Single value)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix3x3.AdditionOpMatrix3x3Matrix3x3">
+            <summary>Sets the shim of Matrix3x3.op_Addition(Matrix3x3 matrix1, Matrix3x3 matrix2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix3x3.AdditionOpMatrix3x3Single">
+            <summary>Sets the shim of Matrix3x3.op_Addition(Matrix3x3 matrix, Single value)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix3x3.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix3x3.CreateDiagonalVector3">
+            <summary>Sets the shim of Matrix3x3.CreateDiagonal(Vector3 vector)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix3x3.CreateFromColumnsVector3Vector3Vector3">
+            <summary>Sets the shim of Matrix3x3.CreateFromColumns(Vector3 column0, Vector3 column1, Vector3 column2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix3x3.CreateFromRowsVector3Vector3Vector3">
+            <summary>Sets the shim of Matrix3x3.CreateFromRows(Vector3 row0, Vector3 row1, Vector3 row2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix3x3.CreateFromYawPitchRollSingleSingleSingle">
+            <summary>Sets the shim of Matrix3x3.CreateFromYawPitchRoll(Single yaw, Single pitch, Single roll)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix3x3.CreateRotationXSingle">
+            <summary>Sets the shim of Matrix3x3.CreateRotationX(Single radians)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix3x3.CreateRotationYSingle">
+            <summary>Sets the shim of Matrix3x3.CreateRotationY(Single radians)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix3x3.CreateRotationZSingle">
+            <summary>Sets the shim of Matrix3x3.CreateRotationZ(Single radians)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix3x3.EqualityOpMatrix3x3Matrix3x3">
+            <summary>Sets the shim of Matrix3x3.op_Equality(Matrix3x3 matrix1, Matrix3x3 matrix2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix3x3.IdentityGet">
+            <summary>Sets the shim of Matrix3x3.get_Identity()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix3x3.InequalityOpMatrix3x3Matrix3x3">
+            <summary>Sets the shim of Matrix3x3.op_Inequality(Matrix3x3 matrix1, Matrix3x3 matrix2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix3x3.MultiplyMatrix3x3Matrix3x3">
+            <summary>Sets the shim of Matrix3x3.Multiply(Matrix3x3 matrix1, Matrix3x3 matrix2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix3x3.MultiplyMatrix3x3Single">
+            <summary>Sets the shim of Matrix3x3.Multiply(Matrix3x3 matrix, Single factor)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix3x3.MultiplyMatrix3x3Vector3">
+            <summary>Sets the shim of Matrix3x3.Multiply(Matrix3x3 matrix, Vector3 vector)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix3x3.MultiplyOpMatrix3x3Matrix3x3">
+            <summary>Sets the shim of Matrix3x3.op_Multiply(Matrix3x3 matrix1, Matrix3x3 matrix2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix3x3.MultiplyOpMatrix3x3Single">
+            <summary>Sets the shim of Matrix3x3.op_Multiply(Matrix3x3 matrix, Single factor)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix3x3.MultiplyOpMatrix3x3Vector3">
+            <summary>Sets the shim of Matrix3x3.op_Multiply(Matrix3x3 matrix, Vector3 vector)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix3x3.SubtractMatrix3x3Matrix3x3">
+            <summary>Sets the shim of Matrix3x3.Subtract(Matrix3x3 matrix1, Matrix3x3 matrix2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix3x3.SubtractionOpMatrix3x3Matrix3x3">
+            <summary>Sets the shim of Matrix3x3.op_Subtraction(Matrix3x3 matrix1, Matrix3x3 matrix2)</summary>
+        </member>
+        <member name="T:AForge.Math.Fakes.ShimMatrix3x3.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:AForge.Math.Fakes.ShimMatrix4x4">
+            <summary>Shim type of AForge.Math.Matrix4x4</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimMatrix4x4.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimMatrix4x4.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimMatrix4x4.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix4x4.AddMatrix4x4Matrix4x4">
+            <summary>Sets the shim of Matrix4x4.Add(Matrix4x4 matrix1, Matrix4x4 matrix2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix4x4.AdditionOpMatrix4x4Matrix4x4">
+            <summary>Sets the shim of Matrix4x4.op_Addition(Matrix4x4 matrix1, Matrix4x4 matrix2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix4x4.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix4x4.CreateDiagonalVector4">
+            <summary>Sets the shim of Matrix4x4.CreateDiagonal(Vector4 vector)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix4x4.CreateFromColumnsVector4Vector4Vector4Vector4">
+            <summary>Sets the shim of Matrix4x4.CreateFromColumns(Vector4 column0, Vector4 column1, Vector4 column2, Vector4 column3)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix4x4.CreateFromRotationMatrix3x3">
+            <summary>Sets the shim of Matrix4x4.CreateFromRotation(Matrix3x3 rotationMatrix)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix4x4.CreateFromRowsVector4Vector4Vector4Vector4">
+            <summary>Sets the shim of Matrix4x4.CreateFromRows(Vector4 row0, Vector4 row1, Vector4 row2, Vector4 row3)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix4x4.CreateFromYawPitchRollSingleSingleSingle">
+            <summary>Sets the shim of Matrix4x4.CreateFromYawPitchRoll(Single yaw, Single pitch, Single roll)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix4x4.CreateLookAtVector3Vector3">
+            <summary>Sets the shim of Matrix4x4.CreateLookAt(Vector3 cameraPosition, Vector3 cameraTarget)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix4x4.CreatePerspectiveSingleSingleSingleSingle">
+            <summary>Sets the shim of Matrix4x4.CreatePerspective(Single width, Single height, Single nearPlaneDistance, Single farPlaneDistance)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix4x4.CreateRotationXSingle">
+            <summary>Sets the shim of Matrix4x4.CreateRotationX(Single radians)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix4x4.CreateRotationYSingle">
+            <summary>Sets the shim of Matrix4x4.CreateRotationY(Single radians)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix4x4.CreateRotationZSingle">
+            <summary>Sets the shim of Matrix4x4.CreateRotationZ(Single radians)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix4x4.CreateTranslationVector3">
+            <summary>Sets the shim of Matrix4x4.CreateTranslation(Vector3 position)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix4x4.EqualityOpMatrix4x4Matrix4x4">
+            <summary>Sets the shim of Matrix4x4.op_Equality(Matrix4x4 matrix1, Matrix4x4 matrix2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix4x4.IdentityGet">
+            <summary>Sets the shim of Matrix4x4.get_Identity()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix4x4.InequalityOpMatrix4x4Matrix4x4">
+            <summary>Sets the shim of Matrix4x4.op_Inequality(Matrix4x4 matrix1, Matrix4x4 matrix2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix4x4.MultiplyMatrix4x4Matrix4x4">
+            <summary>Sets the shim of Matrix4x4.Multiply(Matrix4x4 matrix1, Matrix4x4 matrix2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix4x4.MultiplyMatrix4x4Vector4">
+            <summary>Sets the shim of Matrix4x4.Multiply(Matrix4x4 matrix, Vector4 vector)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix4x4.MultiplyOpMatrix4x4Matrix4x4">
+            <summary>Sets the shim of Matrix4x4.op_Multiply(Matrix4x4 matrix1, Matrix4x4 matrix2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix4x4.MultiplyOpMatrix4x4Vector4">
+            <summary>Sets the shim of Matrix4x4.op_Multiply(Matrix4x4 matrix, Vector4 vector)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix4x4.SubtractMatrix4x4Matrix4x4">
+            <summary>Sets the shim of Matrix4x4.Subtract(Matrix4x4 matrix1, Matrix4x4 matrix2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimMatrix4x4.SubtractionOpMatrix4x4Matrix4x4">
+            <summary>Sets the shim of Matrix4x4.op_Subtraction(Matrix4x4 matrix1, Matrix4x4 matrix2)</summary>
+        </member>
+        <member name="T:AForge.Math.Fakes.ShimMatrix4x4.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:AForge.Math.Fakes.ShimPerlinNoise">
+            <summary>Shim type of AForge.Math.PerlinNoise</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimPerlinNoise.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimPerlinNoise.#ctor(AForge.Math.PerlinNoise)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimPerlinNoise.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimPerlinNoise.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.Constructor">
+            <summary>Sets the shim of PerlinNoise.PerlinNoise()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.ConstructorInt32Double">
+            <summary>Sets the shim of PerlinNoise.PerlinNoise(Int32 octaves, Double persistence)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.ConstructorInt32DoubleDoubleDouble">
+            <summary>Sets the shim of PerlinNoise.PerlinNoise(Int32 octaves, Double persistence, Double initFrequency, Double initAmplitude)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.CosineInterpolateDoubleDoubleDouble">
+            <summary>Sets the shim of PerlinNoise.CosineInterpolate(Double x1, Double x2, Double a)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.Function2DDoubleDouble">
+            <summary>Sets the shim of PerlinNoise.Function2D(Double x, Double y)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.FunctionDouble">
+            <summary>Sets the shim of PerlinNoise.Function(Double x)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.InitAmplitudeGet">
+            <summary>Sets the shim of PerlinNoise.get_InitAmplitude()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.InitAmplitudeSetDouble">
+            <summary>Sets the shim of PerlinNoise.set_InitAmplitude(Double value)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.InitFrequencyGet">
+            <summary>Sets the shim of PerlinNoise.get_InitFrequency()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.InitFrequencySetDouble">
+            <summary>Sets the shim of PerlinNoise.set_InitFrequency(Double value)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.NoiseInt32">
+            <summary>Sets the shim of PerlinNoise.Noise(Int32 x)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.NoiseInt32Int32">
+            <summary>Sets the shim of PerlinNoise.Noise(Int32 x, Int32 y)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.OctavesGet">
+            <summary>Sets the shim of PerlinNoise.get_Octaves()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.OctavesSetInt32">
+            <summary>Sets the shim of PerlinNoise.set_Octaves(Int32 value)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.PersistenceGet">
+            <summary>Sets the shim of PerlinNoise.get_Persistence()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.PersistenceSetDouble">
+            <summary>Sets the shim of PerlinNoise.set_Persistence(Double value)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.SmoothedNoiseDouble">
+            <summary>Sets the shim of PerlinNoise.SmoothedNoise(Double x)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.SmoothedNoiseDoubleDouble">
+            <summary>Sets the shim of PerlinNoise.SmoothedNoise(Double x, Double y)</summary>
+        </member>
+        <member name="T:AForge.Math.Fakes.ShimPerlinNoise.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.AllInstances.CosineInterpolateDoubleDoubleDouble">
+            <summary>Sets the shim of PerlinNoise.CosineInterpolate(Double x1, Double x2, Double a)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.AllInstances.Function2DDoubleDouble">
+            <summary>Sets the shim of PerlinNoise.Function2D(Double x, Double y)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.AllInstances.FunctionDouble">
+            <summary>Sets the shim of PerlinNoise.Function(Double x)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.AllInstances.InitAmplitudeGet">
+            <summary>Sets the shim of PerlinNoise.get_InitAmplitude()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.AllInstances.InitAmplitudeSetDouble">
+            <summary>Sets the shim of PerlinNoise.set_InitAmplitude(Double value)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.AllInstances.InitFrequencyGet">
+            <summary>Sets the shim of PerlinNoise.get_InitFrequency()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.AllInstances.InitFrequencySetDouble">
+            <summary>Sets the shim of PerlinNoise.set_InitFrequency(Double value)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.AllInstances.NoiseInt32">
+            <summary>Sets the shim of PerlinNoise.Noise(Int32 x)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.AllInstances.NoiseInt32Int32">
+            <summary>Sets the shim of PerlinNoise.Noise(Int32 x, Int32 y)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.AllInstances.OctavesGet">
+            <summary>Sets the shim of PerlinNoise.get_Octaves()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.AllInstances.OctavesSetInt32">
+            <summary>Sets the shim of PerlinNoise.set_Octaves(Int32 value)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.AllInstances.PersistenceGet">
+            <summary>Sets the shim of PerlinNoise.get_Persistence()</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.AllInstances.PersistenceSetDouble">
+            <summary>Sets the shim of PerlinNoise.set_Persistence(Double value)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.AllInstances.SmoothedNoiseDouble">
+            <summary>Sets the shim of PerlinNoise.SmoothedNoise(Double x)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimPerlinNoise.AllInstances.SmoothedNoiseDoubleDouble">
+            <summary>Sets the shim of PerlinNoise.SmoothedNoise(Double x, Double y)</summary>
+        </member>
+        <member name="T:AForge.Math.Fakes.ShimStatistics">
+            <summary>Shim type of AForge.Math.Statistics</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimStatistics.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimStatistics.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimStatistics.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimStatistics.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimStatistics.EntropyInt32Array">
+            <summary>Sets the shim of Statistics.Entropy(Int32[] values)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimStatistics.GetRangeInt32ArrayDouble">
+            <summary>Sets the shim of Statistics.GetRange(Int32[] values, Double percent)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimStatistics.MeanInt32Array">
+            <summary>Sets the shim of Statistics.Mean(Int32[] values)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimStatistics.MedianInt32Array">
+            <summary>Sets the shim of Statistics.Median(Int32[] values)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimStatistics.ModeInt32Array">
+            <summary>Sets the shim of Statistics.Mode(Int32[] values)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimStatistics.StdDevInt32Array">
+            <summary>Sets the shim of Statistics.StdDev(Int32[] values)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimStatistics.StdDevInt32ArrayDouble">
+            <summary>Sets the shim of Statistics.StdDev(Int32[] values, Double mean)</summary>
+        </member>
+        <member name="T:AForge.Math.Fakes.ShimTools">
+            <summary>Shim type of AForge.Math.Tools</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimTools.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimTools.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimTools.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimTools.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimTools.IsPowerOf2Int32">
+            <summary>Sets the shim of Tools.IsPowerOf2(Int32 x)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimTools.Log2Int32">
+            <summary>Sets the shim of Tools.Log2(Int32 x)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimTools.Pow2Int32">
+            <summary>Sets the shim of Tools.Pow2(Int32 power)</summary>
+        </member>
+        <member name="T:AForge.Math.Fakes.ShimVector3">
+            <summary>Shim type of AForge.Math.Vector3</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimVector3.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimVector3.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimVector3.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector3.AddVector3Single">
+            <summary>Sets the shim of Vector3.Add(Vector3 vector, Single value)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector3.AddVector3Vector3">
+            <summary>Sets the shim of Vector3.Add(Vector3 vector1, Vector3 vector2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector3.AdditionOpVector3Single">
+            <summary>Sets the shim of Vector3.op_Addition(Vector3 vector, Single value)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector3.AdditionOpVector3Vector3">
+            <summary>Sets the shim of Vector3.op_Addition(Vector3 vector1, Vector3 vector2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector3.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector3.CrossVector3Vector3">
+            <summary>Sets the shim of Vector3.Cross(Vector3 vector1, Vector3 vector2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector3.DivideVector3Single">
+            <summary>Sets the shim of Vector3.Divide(Vector3 vector, Single factor)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector3.DivideVector3Vector3">
+            <summary>Sets the shim of Vector3.Divide(Vector3 vector1, Vector3 vector2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector3.DivisionOpVector3Single">
+            <summary>Sets the shim of Vector3.op_Division(Vector3 vector, Single factor)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector3.DivisionOpVector3Vector3">
+            <summary>Sets the shim of Vector3.op_Division(Vector3 vector1, Vector3 vector2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector3.DotVector3Vector3">
+            <summary>Sets the shim of Vector3.Dot(Vector3 vector1, Vector3 vector2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector3.EqualityOpVector3Vector3">
+            <summary>Sets the shim of Vector3.op_Equality(Vector3 vector1, Vector3 vector2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector3.InequalityOpVector3Vector3">
+            <summary>Sets the shim of Vector3.op_Inequality(Vector3 vector1, Vector3 vector2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector3.MultiplyOpVector3Single">
+            <summary>Sets the shim of Vector3.op_Multiply(Vector3 vector, Single factor)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector3.MultiplyOpVector3Vector3">
+            <summary>Sets the shim of Vector3.op_Multiply(Vector3 vector1, Vector3 vector2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector3.MultiplyVector3Single">
+            <summary>Sets the shim of Vector3.Multiply(Vector3 vector, Single factor)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector3.MultiplyVector3Vector3">
+            <summary>Sets the shim of Vector3.Multiply(Vector3 vector1, Vector3 vector2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector3.SubtractVector3Single">
+            <summary>Sets the shim of Vector3.Subtract(Vector3 vector, Single value)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector3.SubtractVector3Vector3">
+            <summary>Sets the shim of Vector3.Subtract(Vector3 vector1, Vector3 vector2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector3.SubtractionOpVector3Single">
+            <summary>Sets the shim of Vector3.op_Subtraction(Vector3 vector, Single value)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector3.SubtractionOpVector3Vector3">
+            <summary>Sets the shim of Vector3.op_Subtraction(Vector3 vector1, Vector3 vector2)</summary>
+        </member>
+        <member name="T:AForge.Math.Fakes.ShimVector3.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:AForge.Math.Fakes.ShimVector4">
+            <summary>Shim type of AForge.Math.Vector4</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimVector4.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimVector4.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.ShimVector4.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector4.AddVector4Single">
+            <summary>Sets the shim of Vector4.Add(Vector4 vector, Single value)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector4.AddVector4Vector4">
+            <summary>Sets the shim of Vector4.Add(Vector4 vector1, Vector4 vector2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector4.AdditionOpVector4Single">
+            <summary>Sets the shim of Vector4.op_Addition(Vector4 vector, Single value)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector4.AdditionOpVector4Vector4">
+            <summary>Sets the shim of Vector4.op_Addition(Vector4 vector1, Vector4 vector2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector4.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector4.DivideVector4Single">
+            <summary>Sets the shim of Vector4.Divide(Vector4 vector, Single factor)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector4.DivideVector4Vector4">
+            <summary>Sets the shim of Vector4.Divide(Vector4 vector1, Vector4 vector2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector4.DivisionOpVector4Single">
+            <summary>Sets the shim of Vector4.op_Division(Vector4 vector, Single factor)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector4.DivisionOpVector4Vector4">
+            <summary>Sets the shim of Vector4.op_Division(Vector4 vector1, Vector4 vector2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector4.DotVector4Vector4">
+            <summary>Sets the shim of Vector4.Dot(Vector4 vector1, Vector4 vector2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector4.EqualityOpVector4Vector4">
+            <summary>Sets the shim of Vector4.op_Equality(Vector4 vector1, Vector4 vector2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector4.InequalityOpVector4Vector4">
+            <summary>Sets the shim of Vector4.op_Inequality(Vector4 vector1, Vector4 vector2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector4.MultiplyOpVector4Single">
+            <summary>Sets the shim of Vector4.op_Multiply(Vector4 vector, Single factor)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector4.MultiplyOpVector4Vector4">
+            <summary>Sets the shim of Vector4.op_Multiply(Vector4 vector1, Vector4 vector2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector4.MultiplyVector4Single">
+            <summary>Sets the shim of Vector4.Multiply(Vector4 vector, Single factor)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector4.MultiplyVector4Vector4">
+            <summary>Sets the shim of Vector4.Multiply(Vector4 vector1, Vector4 vector2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector4.SubtractVector4Single">
+            <summary>Sets the shim of Vector4.Subtract(Vector4 vector, Single value)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector4.SubtractVector4Vector4">
+            <summary>Sets the shim of Vector4.Subtract(Vector4 vector1, Vector4 vector2)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector4.SubtractionOpVector4Single">
+            <summary>Sets the shim of Vector4.op_Subtraction(Vector4 vector, Single value)</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.ShimVector4.SubtractionOpVector4Vector4">
+            <summary>Sets the shim of Vector4.op_Subtraction(Vector4 vector1, Vector4 vector2)</summary>
+        </member>
+        <member name="T:AForge.Math.Fakes.ShimVector4.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:AForge.Math.Fakes.StubContinuousHistogram">
+            <summary>Stub type of AForge.Math.ContinuousHistogram</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.StubContinuousHistogram.#ctor(System.Int32[],AForge.Range)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.StubContinuousHistogram.InitializeStub">
+            <summary>Initializes a new instance of type StubContinuousHistogram</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.StubContinuousHistogram.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.StubContinuousHistogram.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.StubContinuousHistogram.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AForge.Math.Fakes.StubGaussian">
+            <summary>Stub type of AForge.Math.Gaussian</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.StubGaussian.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.StubGaussian.#ctor(System.Double)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.StubGaussian.InitializeStub">
+            <summary>Initializes a new instance of type StubGaussian</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.StubGaussian.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.StubGaussian.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.StubGaussian.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AForge.Math.Fakes.StubHistogram">
+            <summary>Stub type of AForge.Math.Histogram</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.StubHistogram.#ctor(System.Int32[])">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.StubHistogram.InitializeStub">
+            <summary>Initializes a new instance of type StubHistogram</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.StubHistogram.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.StubHistogram.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.StubHistogram.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AForge.Math.Fakes.StubPerlinNoise">
+            <summary>Stub type of AForge.Math.PerlinNoise</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.StubPerlinNoise.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.StubPerlinNoise.#ctor(System.Int32,System.Double)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.StubPerlinNoise.#ctor(System.Int32,System.Double,System.Double,System.Double)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AForge.Math.Fakes.StubPerlinNoise.InitializeStub">
+            <summary>Initializes a new instance of type StubPerlinNoise</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.StubPerlinNoise.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.StubPerlinNoise.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AForge.Math.Fakes.StubPerlinNoise.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.ShimClosePointsMergingOptimizer">
+            <summary>Shim type of AForge.Math.Geometry.ClosePointsMergingOptimizer</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimClosePointsMergingOptimizer.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimClosePointsMergingOptimizer.#ctor(AForge.Math.Geometry.ClosePointsMergingOptimizer)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimClosePointsMergingOptimizer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimClosePointsMergingOptimizer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimClosePointsMergingOptimizer.Bind(AForge.Math.Geometry.IShapeOptimizer)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimClosePointsMergingOptimizer.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimClosePointsMergingOptimizer.Constructor">
+            <summary>Sets the shim of ClosePointsMergingOptimizer.ClosePointsMergingOptimizer()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimClosePointsMergingOptimizer.ConstructorSingle">
+            <summary>Sets the shim of ClosePointsMergingOptimizer.ClosePointsMergingOptimizer(Single maxDistanceToMerge)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimClosePointsMergingOptimizer.MaxDistanceToMergeGet">
+            <summary>Sets the shim of ClosePointsMergingOptimizer.get_MaxDistanceToMerge()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimClosePointsMergingOptimizer.MaxDistanceToMergeSetSingle">
+            <summary>Sets the shim of ClosePointsMergingOptimizer.set_MaxDistanceToMerge(Single value)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimClosePointsMergingOptimizer.OptimizeShapeListOfIntPoint">
+            <summary>Sets the shim of ClosePointsMergingOptimizer.OptimizeShape(List`1&lt;IntPoint&gt; shape)</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.ShimClosePointsMergingOptimizer.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimClosePointsMergingOptimizer.AllInstances.MaxDistanceToMergeGet">
+            <summary>Sets the shim of ClosePointsMergingOptimizer.get_MaxDistanceToMerge()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimClosePointsMergingOptimizer.AllInstances.MaxDistanceToMergeSetSingle">
+            <summary>Sets the shim of ClosePointsMergingOptimizer.set_MaxDistanceToMerge(Single value)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimClosePointsMergingOptimizer.AllInstances.OptimizeShapeListOfIntPoint">
+            <summary>Sets the shim of ClosePointsMergingOptimizer.OptimizeShape(List`1&lt;IntPoint&gt; shape)</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.ShimCoplanarPosit">
+            <summary>Shim type of AForge.Math.Geometry.CoplanarPosit</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.#ctor(AForge.Math.Geometry.CoplanarPosit)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.AlternateEstimatedRotationGet">
+            <summary>Sets the shim of CoplanarPosit.get_AlternateEstimatedRotation()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.AlternateEstimatedTranslationGet">
+            <summary>Sets the shim of CoplanarPosit.get_AlternateEstimatedTranslation()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.AlternateEstimationErrorGet">
+            <summary>Sets the shim of CoplanarPosit.get_AlternateEstimationError()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.BestEstimatedRotationGet">
+            <summary>Sets the shim of CoplanarPosit.get_BestEstimatedRotation()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.BestEstimatedTranslationGet">
+            <summary>Sets the shim of CoplanarPosit.get_BestEstimatedTranslation()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.BestEstimationErrorGet">
+            <summary>Sets the shim of CoplanarPosit.get_BestEstimationError()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.ConstructorVector3ArraySingle">
+            <summary>Sets the shim of CoplanarPosit.CoplanarPosit(Vector3[] model, Single focalLength)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.EstimatePosePointArrayMatrix3x3OutVector3Out">
+            <summary>Sets the shim of CoplanarPosit.EstimatePose(Point[] points, Matrix3x3&amp; rotation, Vector3&amp; translation)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.FocalLengthGet">
+            <summary>Sets the shim of CoplanarPosit.get_FocalLength()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.FocalLengthSetSingle">
+            <summary>Sets the shim of CoplanarPosit.set_FocalLength(Single value)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.GetErrorPointArrayMatrix3x3Vector3">
+            <summary>Sets the shim of CoplanarPosit.GetError(Point[] imagePoints, Matrix3x3 rotation, Vector3 translation)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.IteratePointArrayMatrix3x3RefVector3Ref">
+            <summary>Sets the shim of CoplanarPosit.Iterate(Point[] points, Matrix3x3&amp; rotation, Vector3&amp; translation)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.ModelGet">
+            <summary>Sets the shim of CoplanarPosit.get_Model()</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.AllInstances.AlternateEstimatedRotationGet">
+            <summary>Sets the shim of CoplanarPosit.get_AlternateEstimatedRotation()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.AllInstances.AlternateEstimatedTranslationGet">
+            <summary>Sets the shim of CoplanarPosit.get_AlternateEstimatedTranslation()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.AllInstances.AlternateEstimationErrorGet">
+            <summary>Sets the shim of CoplanarPosit.get_AlternateEstimationError()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.AllInstances.BestEstimatedRotationGet">
+            <summary>Sets the shim of CoplanarPosit.get_BestEstimatedRotation()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.AllInstances.BestEstimatedTranslationGet">
+            <summary>Sets the shim of CoplanarPosit.get_BestEstimatedTranslation()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.AllInstances.BestEstimationErrorGet">
+            <summary>Sets the shim of CoplanarPosit.get_BestEstimationError()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.AllInstances.EstimatePosePointArrayMatrix3x3OutVector3Out">
+            <summary>Sets the shim of CoplanarPosit.EstimatePose(Point[] points, Matrix3x3&amp; rotation, Vector3&amp; translation)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.AllInstances.FocalLengthGet">
+            <summary>Sets the shim of CoplanarPosit.get_FocalLength()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.AllInstances.FocalLengthSetSingle">
+            <summary>Sets the shim of CoplanarPosit.set_FocalLength(Single value)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.AllInstances.GetErrorPointArrayMatrix3x3Vector3">
+            <summary>Sets the shim of CoplanarPosit.GetError(Point[] imagePoints, Matrix3x3 rotation, Vector3 translation)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.AllInstances.IteratePointArrayMatrix3x3RefVector3Ref">
+            <summary>Sets the shim of CoplanarPosit.Iterate(Point[] points, Matrix3x3&amp; rotation, Vector3&amp; translation)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.AllInstances.ModelGet">
+            <summary>Sets the shim of CoplanarPosit.get_Model()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimCoplanarPosit.AllInstances.POSPointArrayVector3Matrix3x3OutMatrix3x3OutVector3OutVector3Out">
+            <summary>Sets the shim of CoplanarPosit.POS(Point[] imagePoints, Vector3 eps, Matrix3x3&amp; rotation1, Matrix3x3&amp; rotation2, Vector3&amp; translation1, Vector3&amp; translation2)</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.ShimFlatAnglesOptimizer">
+            <summary>Shim type of AForge.Math.Geometry.FlatAnglesOptimizer</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimFlatAnglesOptimizer.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimFlatAnglesOptimizer.#ctor(AForge.Math.Geometry.FlatAnglesOptimizer)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimFlatAnglesOptimizer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimFlatAnglesOptimizer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimFlatAnglesOptimizer.Bind(AForge.Math.Geometry.IShapeOptimizer)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimFlatAnglesOptimizer.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimFlatAnglesOptimizer.Constructor">
+            <summary>Sets the shim of FlatAnglesOptimizer.FlatAnglesOptimizer()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimFlatAnglesOptimizer.ConstructorSingle">
+            <summary>Sets the shim of FlatAnglesOptimizer.FlatAnglesOptimizer(Single maxAngleToKeep)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimFlatAnglesOptimizer.MaxAngleToKeepGet">
+            <summary>Sets the shim of FlatAnglesOptimizer.get_MaxAngleToKeep()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimFlatAnglesOptimizer.MaxAngleToKeepSetSingle">
+            <summary>Sets the shim of FlatAnglesOptimizer.set_MaxAngleToKeep(Single value)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimFlatAnglesOptimizer.OptimizeShapeListOfIntPoint">
+            <summary>Sets the shim of FlatAnglesOptimizer.OptimizeShape(List`1&lt;IntPoint&gt; shape)</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.ShimFlatAnglesOptimizer.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimFlatAnglesOptimizer.AllInstances.MaxAngleToKeepGet">
+            <summary>Sets the shim of FlatAnglesOptimizer.get_MaxAngleToKeep()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimFlatAnglesOptimizer.AllInstances.MaxAngleToKeepSetSingle">
+            <summary>Sets the shim of FlatAnglesOptimizer.set_MaxAngleToKeep(Single value)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimFlatAnglesOptimizer.AllInstances.OptimizeShapeListOfIntPoint">
+            <summary>Sets the shim of FlatAnglesOptimizer.OptimizeShape(List`1&lt;IntPoint&gt; shape)</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.ShimGeometryTools">
+            <summary>Shim type of AForge.Math.Geometry.GeometryTools</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimGeometryTools.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimGeometryTools.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimGeometryTools.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimGeometryTools.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimGeometryTools.GetAngleBetweenLinesPointPointPointPoint">
+            <summary>Sets the shim of GeometryTools.GetAngleBetweenLines(Point a1, Point a2, Point b1, Point b2)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimGeometryTools.GetAngleBetweenVectorsPointPointPoint">
+            <summary>Sets the shim of GeometryTools.GetAngleBetweenVectors(Point startPoint, Point vector1end, Point vector2end)</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.ShimGrahamConvexHull">
+            <summary>Shim type of AForge.Math.Geometry.GrahamConvexHull</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimGrahamConvexHull.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimGrahamConvexHull.#ctor(AForge.Math.Geometry.GrahamConvexHull)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimGrahamConvexHull.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimGrahamConvexHull.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimGrahamConvexHull.Bind(AForge.Math.Geometry.IConvexHullAlgorithm)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimGrahamConvexHull.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimGrahamConvexHull.Constructor">
+            <summary>Sets the shim of GrahamConvexHull.GrahamConvexHull()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimGrahamConvexHull.FindHullListOfIntPoint">
+            <summary>Sets the shim of GrahamConvexHull.FindHull(List`1&lt;IntPoint&gt; points)</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.ShimGrahamConvexHull.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimGrahamConvexHull.AllInstances.FindHullListOfIntPoint">
+            <summary>Sets the shim of GrahamConvexHull.FindHull(List`1&lt;IntPoint&gt; points)</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.ShimLine">
+            <summary>Shim type of AForge.Math.Geometry.Line</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimLine.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimLine.#ctor(AForge.Math.Geometry.Line)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimLine.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimLine.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.ConstructorPointPoint">
+            <summary>Sets the shim of Line.Line(Point start, Point end)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.ConstructorPointSingle">
+            <summary>Sets the shim of Line.Line(Point point, Single theta)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.ConstructorSingleSingle">
+            <summary>Sets the shim of Line.Line(Single slope, Single intercept)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.ConstructorSingleSingleBoolean">
+            <summary>Sets the shim of Line.Line(Single radius, Single theta, Boolean unused)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.DistanceToPointPoint">
+            <summary>Sets the shim of Line.DistanceToPoint(Point point)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.EqualityOpLineLine">
+            <summary>Sets the shim of Line.op_Equality(Line line1, Line line2)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.EqualsObject">
+            <summary>Sets the shim of Line.Equals(Object obj)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.FromPointThetaPointSingle">
+            <summary>Sets the shim of Line.FromPointTheta(Point point, Single theta)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.FromPointsPointPoint">
+            <summary>Sets the shim of Line.FromPoints(Point point1, Point point2)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.FromRThetaSingleSingle">
+            <summary>Sets the shim of Line.FromRTheta(Single radius, Single theta)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.FromSlopeInterceptSingleSingle">
+            <summary>Sets the shim of Line.FromSlopeIntercept(Single slope, Single intercept)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.GetAngleBetweenLinesLine">
+            <summary>Sets the shim of Line.GetAngleBetweenLines(Line secondLine)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.GetHashCode">
+            <summary>Sets the shim of Line.GetHashCode()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.GetIntersectionWithLine">
+            <summary>Sets the shim of Line.GetIntersectionWith(Line secondLine)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.GetIntersectionWithLineSegment">
+            <summary>Sets the shim of Line.GetIntersectionWith(LineSegment other)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.InequalityOpLineLine">
+            <summary>Sets the shim of Line.op_Inequality(Line line1, Line line2)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.InterceptGet">
+            <summary>Sets the shim of Line.get_Intercept()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.IsHorizontalGet">
+            <summary>Sets the shim of Line.get_IsHorizontal()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.IsVerticalGet">
+            <summary>Sets the shim of Line.get_IsVertical()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.SlopeGet">
+            <summary>Sets the shim of Line.get_Slope()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.ToString">
+            <summary>Sets the shim of Line.ToString()</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.ShimLine.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.AllInstances.DistanceToPointPoint">
+            <summary>Sets the shim of Line.DistanceToPoint(Point point)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.AllInstances.EqualsObject">
+            <summary>Sets the shim of Line.Equals(Object obj)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.AllInstances.GetAngleBetweenLinesLine">
+            <summary>Sets the shim of Line.GetAngleBetweenLines(Line secondLine)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.AllInstances.GetHashCode01">
+            <summary>Sets the shim of Line.GetHashCode()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.AllInstances.GetIntersectionWithLine">
+            <summary>Sets the shim of Line.GetIntersectionWith(Line secondLine)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.AllInstances.GetIntersectionWithLineSegment">
+            <summary>Sets the shim of Line.GetIntersectionWith(LineSegment other)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.AllInstances.InterceptGet">
+            <summary>Sets the shim of Line.get_Intercept()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.AllInstances.IsHorizontalGet">
+            <summary>Sets the shim of Line.get_IsHorizontal()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.AllInstances.IsVerticalGet">
+            <summary>Sets the shim of Line.get_IsVertical()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.AllInstances.SlopeGet">
+            <summary>Sets the shim of Line.get_Slope()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLine.AllInstances.ToString01">
+            <summary>Sets the shim of Line.ToString()</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.ShimLineSegment">
+            <summary>Shim type of AForge.Math.Geometry.LineSegment</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimLineSegment.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimLineSegment.#ctor(AForge.Math.Geometry.LineSegment)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimLineSegment.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimLineSegment.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineSegment.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineSegment.ConstructorPointPoint">
+            <summary>Sets the shim of LineSegment.LineSegment(Point start, Point end)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineSegment.DistanceToPointPoint">
+            <summary>Sets the shim of LineSegment.DistanceToPoint(Point point)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineSegment.EndGet">
+            <summary>Sets the shim of LineSegment.get_End()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineSegment.EqualityOpLineSegmentLineSegment">
+            <summary>Sets the shim of LineSegment.op_Equality(LineSegment line1, LineSegment line2)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineSegment.EqualsObject">
+            <summary>Sets the shim of LineSegment.Equals(Object obj)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineSegment.ExplicitOpLineSegmentLine">
+            <summary>Sets the shim of LineSegment.op_Explicit(LineSegment segment)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineSegment.GetHashCode">
+            <summary>Sets the shim of LineSegment.GetHashCode()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineSegment.GetIntersectionWithLine">
+            <summary>Sets the shim of LineSegment.GetIntersectionWith(Line other)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineSegment.GetIntersectionWithLineSegment">
+            <summary>Sets the shim of LineSegment.GetIntersectionWith(LineSegment other)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineSegment.InequalityOpLineSegmentLineSegment">
+            <summary>Sets the shim of LineSegment.op_Inequality(LineSegment line1, LineSegment line2)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineSegment.LengthGet">
+            <summary>Sets the shim of LineSegment.get_Length()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineSegment.StartGet">
+            <summary>Sets the shim of LineSegment.get_Start()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineSegment.ToString">
+            <summary>Sets the shim of LineSegment.ToString()</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.ShimLineSegment.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineSegment.AllInstances.DistanceToPointPoint">
+            <summary>Sets the shim of LineSegment.DistanceToPoint(Point point)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineSegment.AllInstances.EndGet">
+            <summary>Sets the shim of LineSegment.get_End()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineSegment.AllInstances.EqualsObject">
+            <summary>Sets the shim of LineSegment.Equals(Object obj)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineSegment.AllInstances.GetHashCode01">
+            <summary>Sets the shim of LineSegment.GetHashCode()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineSegment.AllInstances.GetIntersectionWithLine">
+            <summary>Sets the shim of LineSegment.GetIntersectionWith(Line other)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineSegment.AllInstances.GetIntersectionWithLineSegment">
+            <summary>Sets the shim of LineSegment.GetIntersectionWith(LineSegment other)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineSegment.AllInstances.LengthGet">
+            <summary>Sets the shim of LineSegment.get_Length()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineSegment.AllInstances.StartGet">
+            <summary>Sets the shim of LineSegment.get_Start()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineSegment.AllInstances.ToString01">
+            <summary>Sets the shim of LineSegment.ToString()</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.ShimLineStraighteningOptimizer">
+            <summary>Shim type of AForge.Math.Geometry.LineStraighteningOptimizer</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimLineStraighteningOptimizer.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimLineStraighteningOptimizer.#ctor(AForge.Math.Geometry.LineStraighteningOptimizer)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimLineStraighteningOptimizer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimLineStraighteningOptimizer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimLineStraighteningOptimizer.Bind(AForge.Math.Geometry.IShapeOptimizer)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineStraighteningOptimizer.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineStraighteningOptimizer.Constructor">
+            <summary>Sets the shim of LineStraighteningOptimizer.LineStraighteningOptimizer()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineStraighteningOptimizer.ConstructorSingle">
+            <summary>Sets the shim of LineStraighteningOptimizer.LineStraighteningOptimizer(Single maxDistanceToRemove)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineStraighteningOptimizer.MaxDistanceToRemoveGet">
+            <summary>Sets the shim of LineStraighteningOptimizer.get_MaxDistanceToRemove()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineStraighteningOptimizer.MaxDistanceToRemoveSetSingle">
+            <summary>Sets the shim of LineStraighteningOptimizer.set_MaxDistanceToRemove(Single value)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineStraighteningOptimizer.OptimizeShapeListOfIntPoint">
+            <summary>Sets the shim of LineStraighteningOptimizer.OptimizeShape(List`1&lt;IntPoint&gt; shape)</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.ShimLineStraighteningOptimizer.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineStraighteningOptimizer.AllInstances.MaxDistanceToRemoveGet">
+            <summary>Sets the shim of LineStraighteningOptimizer.get_MaxDistanceToRemove()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineStraighteningOptimizer.AllInstances.MaxDistanceToRemoveSetSingle">
+            <summary>Sets the shim of LineStraighteningOptimizer.set_MaxDistanceToRemove(Single value)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimLineStraighteningOptimizer.AllInstances.OptimizeShapeListOfIntPoint">
+            <summary>Sets the shim of LineStraighteningOptimizer.OptimizeShape(List`1&lt;IntPoint&gt; shape)</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.ShimPointsCloud">
+            <summary>Shim type of AForge.Math.Geometry.PointsCloud</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimPointsCloud.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimPointsCloud.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimPointsCloud.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimPointsCloud.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimPointsCloud.FindQuadrilateralCornersIEnumerableOfIntPoint">
+            <summary>Sets the shim of PointsCloud.FindQuadrilateralCorners(IEnumerable`1&lt;IntPoint&gt; cloud)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimPointsCloud.GetBoundingRectangleIEnumerableOfIntPointIntPointOutIntPointOut">
+            <summary>Sets the shim of PointsCloud.GetBoundingRectangle(IEnumerable`1&lt;IntPoint&gt; cloud, IntPoint&amp; minXY, IntPoint&amp; maxXY)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimPointsCloud.GetCenterOfGravityIEnumerableOfIntPoint">
+            <summary>Sets the shim of PointsCloud.GetCenterOfGravity(IEnumerable`1&lt;IntPoint&gt; cloud)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimPointsCloud.GetFurthestPointFromLineIEnumerableOfIntPointIntPointIntPoint">
+            <summary>Sets the shim of PointsCloud.GetFurthestPointFromLine(IEnumerable`1&lt;IntPoint&gt; cloud, IntPoint linePoint1, IntPoint linePoint2)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimPointsCloud.GetFurthestPointFromLineIEnumerableOfIntPointIntPointIntPointSingleOut">
+            <summary>Sets the shim of PointsCloud.GetFurthestPointFromLine(IEnumerable`1&lt;IntPoint&gt; cloud, IntPoint linePoint1, IntPoint linePoint2, Single&amp; distance)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimPointsCloud.GetFurthestPointIEnumerableOfIntPointIntPoint">
+            <summary>Sets the shim of PointsCloud.GetFurthestPoint(IEnumerable`1&lt;IntPoint&gt; cloud, IntPoint referencePoint)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimPointsCloud.GetFurthestPointsFromLineIEnumerableOfIntPointIntPointIntPointIntPointOutIntPointOut">
+            <summary>Sets the shim of PointsCloud.GetFurthestPointsFromLine(IEnumerable`1&lt;IntPoint&gt; cloud, IntPoint linePoint1, IntPoint linePoint2, IntPoint&amp; furthestPoint1, IntPoint&amp; furthestPoint2)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimPointsCloud.GetFurthestPointsFromLineIEnumerableOfIntPointIntPointIntPointIntPointOutSingleOutIntPointOutSingleOut">
+            <summary>Sets the shim of PointsCloud.GetFurthestPointsFromLine(IEnumerable`1&lt;IntPoint&gt; cloud, IntPoint linePoint1, IntPoint linePoint2, IntPoint&amp; furthestPoint1, Single&amp; distance1, IntPoint&amp; furthestPoint2, Single&amp; distance2)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimPointsCloud.QuadrilateralRelativeDistortionLimitGet">
+            <summary>Sets the shim of PointsCloud.get_QuadrilateralRelativeDistortionLimit()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimPointsCloud.QuadrilateralRelativeDistortionLimitSetSingle">
+            <summary>Sets the shim of PointsCloud.set_QuadrilateralRelativeDistortionLimit(Single value)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimPointsCloud.ShiftIListOfIntPointIntPoint">
+            <summary>Sets the shim of PointsCloud.Shift(IList`1&lt;IntPoint&gt; cloud, IntPoint shift)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimPointsCloud.StaticConstructor">
+            <summary>Sets the shim of PointsCloud.PointsCloud()</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.ShimPosit">
+            <summary>Shim type of AForge.Math.Geometry.Posit</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimPosit.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimPosit.#ctor(AForge.Math.Geometry.Posit)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimPosit.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimPosit.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimPosit.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimPosit.ConstructorVector3ArraySingle">
+            <summary>Sets the shim of Posit.Posit(Vector3[] model, Single focalLength)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimPosit.EstimatePosePointArrayMatrix3x3OutVector3Out">
+            <summary>Sets the shim of Posit.EstimatePose(Point[] points, Matrix3x3&amp; rotation, Vector3&amp; translation)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimPosit.FocalLengthGet">
+            <summary>Sets the shim of Posit.get_FocalLength()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimPosit.FocalLengthSetSingle">
+            <summary>Sets the shim of Posit.set_FocalLength(Single value)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimPosit.ModelGet">
+            <summary>Sets the shim of Posit.get_Model()</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.ShimPosit.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimPosit.AllInstances.EstimatePosePointArrayMatrix3x3OutVector3Out">
+            <summary>Sets the shim of Posit.EstimatePose(Point[] points, Matrix3x3&amp; rotation, Vector3&amp; translation)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimPosit.AllInstances.FocalLengthGet">
+            <summary>Sets the shim of Posit.get_FocalLength()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimPosit.AllInstances.FocalLengthSetSingle">
+            <summary>Sets the shim of Posit.set_FocalLength(Single value)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimPosit.AllInstances.ModelGet">
+            <summary>Sets the shim of Posit.get_Model()</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker">
+            <summary>Shim type of AForge.Math.Geometry.SimpleShapeChecker</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.#ctor(AForge.Math.Geometry.SimpleShapeChecker)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.AngleErrorGet">
+            <summary>Sets the shim of SimpleShapeChecker.get_AngleError()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.AngleErrorSetSingle">
+            <summary>Sets the shim of SimpleShapeChecker.set_AngleError(Single value)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.CheckIfPointsFitShapeListOfIntPointListOfIntPoint">
+            <summary>Sets the shim of SimpleShapeChecker.CheckIfPointsFitShape(List`1&lt;IntPoint&gt; edgePoints, List`1&lt;IntPoint&gt; corners)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.CheckPolygonSubTypeListOfIntPoint">
+            <summary>Sets the shim of SimpleShapeChecker.CheckPolygonSubType(List`1&lt;IntPoint&gt; corners)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.CheckShapeTypeListOfIntPoint">
+            <summary>Sets the shim of SimpleShapeChecker.CheckShapeType(List`1&lt;IntPoint&gt; edgePoints)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.Constructor">
+            <summary>Sets the shim of SimpleShapeChecker.SimpleShapeChecker()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.GetShapeCornersListOfIntPoint">
+            <summary>Sets the shim of SimpleShapeChecker.GetShapeCorners(List`1&lt;IntPoint&gt; edgePoints)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.IsCircleListOfIntPoint">
+            <summary>Sets the shim of SimpleShapeChecker.IsCircle(List`1&lt;IntPoint&gt; edgePoints)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.IsCircleListOfIntPointPointOutSingleOut">
+            <summary>Sets the shim of SimpleShapeChecker.IsCircle(List`1&lt;IntPoint&gt; edgePoints, Point&amp; center, Single&amp; radius)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.IsConvexPolygonListOfIntPointListOfIntPointOut">
+            <summary>Sets the shim of SimpleShapeChecker.IsConvexPolygon(List`1&lt;IntPoint&gt; edgePoints, List`1&lt;IntPoint&gt;&amp; corners)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.IsQuadrilateralListOfIntPoint">
+            <summary>Sets the shim of SimpleShapeChecker.IsQuadrilateral(List`1&lt;IntPoint&gt; edgePoints)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.IsQuadrilateralListOfIntPointListOfIntPointOut">
+            <summary>Sets the shim of SimpleShapeChecker.IsQuadrilateral(List`1&lt;IntPoint&gt; edgePoints, List`1&lt;IntPoint&gt;&amp; corners)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.IsTriangleListOfIntPoint">
+            <summary>Sets the shim of SimpleShapeChecker.IsTriangle(List`1&lt;IntPoint&gt; edgePoints)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.IsTriangleListOfIntPointListOfIntPointOut">
+            <summary>Sets the shim of SimpleShapeChecker.IsTriangle(List`1&lt;IntPoint&gt; edgePoints, List`1&lt;IntPoint&gt;&amp; corners)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.LengthErrorGet">
+            <summary>Sets the shim of SimpleShapeChecker.get_LengthError()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.LengthErrorSetSingle">
+            <summary>Sets the shim of SimpleShapeChecker.set_LengthError(Single value)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.MinAcceptableDistortionGet">
+            <summary>Sets the shim of SimpleShapeChecker.get_MinAcceptableDistortion()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.MinAcceptableDistortionSetSingle">
+            <summary>Sets the shim of SimpleShapeChecker.set_MinAcceptableDistortion(Single value)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.RelativeDistortionLimitGet">
+            <summary>Sets the shim of SimpleShapeChecker.get_RelativeDistortionLimit()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.RelativeDistortionLimitSetSingle">
+            <summary>Sets the shim of SimpleShapeChecker.set_RelativeDistortionLimit(Single value)</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.AllInstances.AngleErrorGet">
+            <summary>Sets the shim of SimpleShapeChecker.get_AngleError()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.AllInstances.AngleErrorSetSingle">
+            <summary>Sets the shim of SimpleShapeChecker.set_AngleError(Single value)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.AllInstances.CheckIfPointsFitShapeListOfIntPointListOfIntPoint">
+            <summary>Sets the shim of SimpleShapeChecker.CheckIfPointsFitShape(List`1&lt;IntPoint&gt; edgePoints, List`1&lt;IntPoint&gt; corners)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.AllInstances.CheckPolygonSubTypeListOfIntPoint">
+            <summary>Sets the shim of SimpleShapeChecker.CheckPolygonSubType(List`1&lt;IntPoint&gt; corners)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.AllInstances.CheckShapeTypeListOfIntPoint">
+            <summary>Sets the shim of SimpleShapeChecker.CheckShapeType(List`1&lt;IntPoint&gt; edgePoints)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.AllInstances.GetShapeCornersListOfIntPoint">
+            <summary>Sets the shim of SimpleShapeChecker.GetShapeCorners(List`1&lt;IntPoint&gt; edgePoints)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.AllInstances.IsCircleListOfIntPoint">
+            <summary>Sets the shim of SimpleShapeChecker.IsCircle(List`1&lt;IntPoint&gt; edgePoints)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.AllInstances.IsCircleListOfIntPointPointOutSingleOut">
+            <summary>Sets the shim of SimpleShapeChecker.IsCircle(List`1&lt;IntPoint&gt; edgePoints, Point&amp; center, Single&amp; radius)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.AllInstances.IsConvexPolygonListOfIntPointListOfIntPointOut">
+            <summary>Sets the shim of SimpleShapeChecker.IsConvexPolygon(List`1&lt;IntPoint&gt; edgePoints, List`1&lt;IntPoint&gt;&amp; corners)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.AllInstances.IsQuadrilateralListOfIntPoint">
+            <summary>Sets the shim of SimpleShapeChecker.IsQuadrilateral(List`1&lt;IntPoint&gt; edgePoints)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.AllInstances.IsQuadrilateralListOfIntPointListOfIntPointOut">
+            <summary>Sets the shim of SimpleShapeChecker.IsQuadrilateral(List`1&lt;IntPoint&gt; edgePoints, List`1&lt;IntPoint&gt;&amp; corners)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.AllInstances.IsTriangleListOfIntPoint">
+            <summary>Sets the shim of SimpleShapeChecker.IsTriangle(List`1&lt;IntPoint&gt; edgePoints)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.AllInstances.IsTriangleListOfIntPointListOfIntPointOut">
+            <summary>Sets the shim of SimpleShapeChecker.IsTriangle(List`1&lt;IntPoint&gt; edgePoints, List`1&lt;IntPoint&gt;&amp; corners)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.AllInstances.LengthErrorGet">
+            <summary>Sets the shim of SimpleShapeChecker.get_LengthError()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.AllInstances.LengthErrorSetSingle">
+            <summary>Sets the shim of SimpleShapeChecker.set_LengthError(Single value)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.AllInstances.MinAcceptableDistortionGet">
+            <summary>Sets the shim of SimpleShapeChecker.get_MinAcceptableDistortion()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.AllInstances.MinAcceptableDistortionSetSingle">
+            <summary>Sets the shim of SimpleShapeChecker.set_MinAcceptableDistortion(Single value)</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.AllInstances.RelativeDistortionLimitGet">
+            <summary>Sets the shim of SimpleShapeChecker.get_RelativeDistortionLimit()</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.ShimSimpleShapeChecker.AllInstances.RelativeDistortionLimitSetSingle">
+            <summary>Sets the shim of SimpleShapeChecker.set_RelativeDistortionLimit(Single value)</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.StubClosePointsMergingOptimizer">
+            <summary>Stub type of AForge.Math.Geometry.ClosePointsMergingOptimizer</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.StubClosePointsMergingOptimizer.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.StubClosePointsMergingOptimizer.#ctor(System.Single)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.StubClosePointsMergingOptimizer.InitializeStub">
+            <summary>Initializes a new instance of type StubClosePointsMergingOptimizer</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.StubClosePointsMergingOptimizer.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.StubClosePointsMergingOptimizer.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.StubClosePointsMergingOptimizer.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.StubCoplanarPosit">
+            <summary>Stub type of AForge.Math.Geometry.CoplanarPosit</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.StubCoplanarPosit.#ctor(AForge.Math.Vector3[],System.Single)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.StubCoplanarPosit.InitializeStub">
+            <summary>Initializes a new instance of type StubCoplanarPosit</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.StubCoplanarPosit.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.StubCoplanarPosit.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.StubCoplanarPosit.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.StubFlatAnglesOptimizer">
+            <summary>Stub type of AForge.Math.Geometry.FlatAnglesOptimizer</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.StubFlatAnglesOptimizer.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.StubFlatAnglesOptimizer.#ctor(System.Single)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.StubFlatAnglesOptimizer.InitializeStub">
+            <summary>Initializes a new instance of type StubFlatAnglesOptimizer</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.StubFlatAnglesOptimizer.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.StubFlatAnglesOptimizer.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.StubFlatAnglesOptimizer.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.StubGrahamConvexHull">
+            <summary>Stub type of AForge.Math.Geometry.GrahamConvexHull</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.StubGrahamConvexHull.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.StubGrahamConvexHull.InitializeStub">
+            <summary>Initializes a new instance of type StubGrahamConvexHull</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.StubGrahamConvexHull.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.StubGrahamConvexHull.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.StubGrahamConvexHull.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.StubIConvexHullAlgorithm">
+            <summary>Stub type of AForge.Math.Geometry.IConvexHullAlgorithm</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.StubIConvexHullAlgorithm.#ctor">
+            <summary>Initializes a new instance of type StubIConvexHullAlgorithm</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.StubIConvexHullAlgorithm.afm::AForge#Math#Geometry#IConvexHullAlgorithm#FindHull(System.Collections.Generic.List{AForge.IntPoint})">
+            <summary>Sets the stub of IConvexHullAlgorithm.FindHull(List`1&lt;IntPoint&gt; points)</summary>
+        </member>
+        <member name="F:AForge.Math.Geometry.Fakes.StubIConvexHullAlgorithm.FindHullListOfIntPoint">
+            <summary>Sets the stub of IConvexHullAlgorithm.FindHull(List`1&lt;IntPoint&gt; points)</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.StubIShapeOptimizer">
+            <summary>Stub type of AForge.Math.Geometry.IShapeOptimizer</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.StubIShapeOptimizer.#ctor">
+            <summary>Initializes a new instance of type StubIShapeOptimizer</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.StubIShapeOptimizer.afm::AForge#Math#Geometry#IShapeOptimizer#OptimizeShape(System.Collections.Generic.List{AForge.IntPoint})">
+            <summary>Sets the stub of IShapeOptimizer.OptimizeShape(List`1&lt;IntPoint&gt; shape)</summary>
+        </member>
+        <member name="F:AForge.Math.Geometry.Fakes.StubIShapeOptimizer.OptimizeShapeListOfIntPoint">
+            <summary>Sets the stub of IShapeOptimizer.OptimizeShape(List`1&lt;IntPoint&gt; shape)</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.StubLineStraighteningOptimizer">
+            <summary>Stub type of AForge.Math.Geometry.LineStraighteningOptimizer</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.StubLineStraighteningOptimizer.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.StubLineStraighteningOptimizer.#ctor(System.Single)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.StubLineStraighteningOptimizer.InitializeStub">
+            <summary>Initializes a new instance of type StubLineStraighteningOptimizer</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.StubLineStraighteningOptimizer.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.StubLineStraighteningOptimizer.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.StubLineStraighteningOptimizer.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.StubPosit">
+            <summary>Stub type of AForge.Math.Geometry.Posit</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.StubPosit.#ctor(AForge.Math.Vector3[],System.Single)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.StubPosit.InitializeStub">
+            <summary>Initializes a new instance of type StubPosit</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.StubPosit.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.StubPosit.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.StubPosit.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AForge.Math.Geometry.Fakes.StubSimpleShapeChecker">
+            <summary>Stub type of AForge.Math.Geometry.SimpleShapeChecker</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.StubSimpleShapeChecker.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AForge.Math.Geometry.Fakes.StubSimpleShapeChecker.InitializeStub">
+            <summary>Initializes a new instance of type StubSimpleShapeChecker</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.StubSimpleShapeChecker.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.StubSimpleShapeChecker.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AForge.Math.Geometry.Fakes.StubSimpleShapeChecker.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AForge.Math.Metrics.Fakes.ShimCosineDistance">
+            <summary>Shim type of AForge.Math.Metrics.CosineDistance</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimCosineDistance.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimCosineDistance.#ctor(AForge.Math.Metrics.CosineDistance)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimCosineDistance.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimCosineDistance.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimCosineDistance.Bind(AForge.Math.Metrics.IDistance)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimCosineDistance.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimCosineDistance.Constructor">
+            <summary>Sets the shim of CosineDistance.CosineDistance()</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimCosineDistance.GetDistanceDoubleArrayDoubleArray">
+            <summary>Sets the shim of CosineDistance.GetDistance(Double[] p, Double[] q)</summary>
+        </member>
+        <member name="T:AForge.Math.Metrics.Fakes.ShimCosineDistance.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimCosineDistance.AllInstances.GetDistanceDoubleArrayDoubleArray">
+            <summary>Sets the shim of CosineDistance.GetDistance(Double[] p, Double[] q)</summary>
+        </member>
+        <member name="T:AForge.Math.Metrics.Fakes.ShimCosineSimilarity">
+            <summary>Shim type of AForge.Math.Metrics.CosineSimilarity</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimCosineSimilarity.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimCosineSimilarity.#ctor(AForge.Math.Metrics.CosineSimilarity)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimCosineSimilarity.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimCosineSimilarity.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimCosineSimilarity.Bind(AForge.Math.Metrics.ISimilarity)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimCosineSimilarity.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimCosineSimilarity.Constructor">
+            <summary>Sets the shim of CosineSimilarity.CosineSimilarity()</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimCosineSimilarity.GetSimilarityScoreDoubleArrayDoubleArray">
+            <summary>Sets the shim of CosineSimilarity.GetSimilarityScore(Double[] p, Double[] q)</summary>
+        </member>
+        <member name="T:AForge.Math.Metrics.Fakes.ShimCosineSimilarity.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimCosineSimilarity.AllInstances.GetSimilarityScoreDoubleArrayDoubleArray">
+            <summary>Sets the shim of CosineSimilarity.GetSimilarityScore(Double[] p, Double[] q)</summary>
+        </member>
+        <member name="T:AForge.Math.Metrics.Fakes.ShimEuclideanDistance">
+            <summary>Shim type of AForge.Math.Metrics.EuclideanDistance</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimEuclideanDistance.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimEuclideanDistance.#ctor(AForge.Math.Metrics.EuclideanDistance)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimEuclideanDistance.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimEuclideanDistance.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimEuclideanDistance.Bind(AForge.Math.Metrics.IDistance)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimEuclideanDistance.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimEuclideanDistance.Constructor">
+            <summary>Sets the shim of EuclideanDistance.EuclideanDistance()</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimEuclideanDistance.GetDistanceDoubleArrayDoubleArray">
+            <summary>Sets the shim of EuclideanDistance.GetDistance(Double[] p, Double[] q)</summary>
+        </member>
+        <member name="T:AForge.Math.Metrics.Fakes.ShimEuclideanDistance.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimEuclideanDistance.AllInstances.GetDistanceDoubleArrayDoubleArray">
+            <summary>Sets the shim of EuclideanDistance.GetDistance(Double[] p, Double[] q)</summary>
+        </member>
+        <member name="T:AForge.Math.Metrics.Fakes.ShimEuclideanSimilarity">
+            <summary>Shim type of AForge.Math.Metrics.EuclideanSimilarity</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimEuclideanSimilarity.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimEuclideanSimilarity.#ctor(AForge.Math.Metrics.EuclideanSimilarity)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimEuclideanSimilarity.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimEuclideanSimilarity.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimEuclideanSimilarity.Bind(AForge.Math.Metrics.ISimilarity)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimEuclideanSimilarity.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimEuclideanSimilarity.Constructor">
+            <summary>Sets the shim of EuclideanSimilarity.EuclideanSimilarity()</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimEuclideanSimilarity.GetSimilarityScoreDoubleArrayDoubleArray">
+            <summary>Sets the shim of EuclideanSimilarity.GetSimilarityScore(Double[] p, Double[] q)</summary>
+        </member>
+        <member name="T:AForge.Math.Metrics.Fakes.ShimEuclideanSimilarity.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimEuclideanSimilarity.AllInstances.GetSimilarityScoreDoubleArrayDoubleArray">
+            <summary>Sets the shim of EuclideanSimilarity.GetSimilarityScore(Double[] p, Double[] q)</summary>
+        </member>
+        <member name="T:AForge.Math.Metrics.Fakes.ShimHammingDistance">
+            <summary>Shim type of AForge.Math.Metrics.HammingDistance</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimHammingDistance.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimHammingDistance.#ctor(AForge.Math.Metrics.HammingDistance)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimHammingDistance.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimHammingDistance.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimHammingDistance.Bind(AForge.Math.Metrics.IDistance)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimHammingDistance.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimHammingDistance.Constructor">
+            <summary>Sets the shim of HammingDistance.HammingDistance()</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimHammingDistance.GetDistanceDoubleArrayDoubleArray">
+            <summary>Sets the shim of HammingDistance.GetDistance(Double[] p, Double[] q)</summary>
+        </member>
+        <member name="T:AForge.Math.Metrics.Fakes.ShimHammingDistance.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimHammingDistance.AllInstances.GetDistanceDoubleArrayDoubleArray">
+            <summary>Sets the shim of HammingDistance.GetDistance(Double[] p, Double[] q)</summary>
+        </member>
+        <member name="T:AForge.Math.Metrics.Fakes.ShimJaccardDistance">
+            <summary>Shim type of AForge.Math.Metrics.JaccardDistance</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimJaccardDistance.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimJaccardDistance.#ctor(AForge.Math.Metrics.JaccardDistance)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimJaccardDistance.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimJaccardDistance.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimJaccardDistance.Bind(AForge.Math.Metrics.IDistance)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimJaccardDistance.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimJaccardDistance.Constructor">
+            <summary>Sets the shim of JaccardDistance.JaccardDistance()</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimJaccardDistance.GetDistanceDoubleArrayDoubleArray">
+            <summary>Sets the shim of JaccardDistance.GetDistance(Double[] p, Double[] q)</summary>
+        </member>
+        <member name="T:AForge.Math.Metrics.Fakes.ShimJaccardDistance.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimJaccardDistance.AllInstances.GetDistanceDoubleArrayDoubleArray">
+            <summary>Sets the shim of JaccardDistance.GetDistance(Double[] p, Double[] q)</summary>
+        </member>
+        <member name="T:AForge.Math.Metrics.Fakes.ShimManhattanDistance">
+            <summary>Shim type of AForge.Math.Metrics.ManhattanDistance</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimManhattanDistance.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimManhattanDistance.#ctor(AForge.Math.Metrics.ManhattanDistance)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimManhattanDistance.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimManhattanDistance.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimManhattanDistance.Bind(AForge.Math.Metrics.IDistance)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimManhattanDistance.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimManhattanDistance.Constructor">
+            <summary>Sets the shim of ManhattanDistance.ManhattanDistance()</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimManhattanDistance.GetDistanceDoubleArrayDoubleArray">
+            <summary>Sets the shim of ManhattanDistance.GetDistance(Double[] p, Double[] q)</summary>
+        </member>
+        <member name="T:AForge.Math.Metrics.Fakes.ShimManhattanDistance.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimManhattanDistance.AllInstances.GetDistanceDoubleArrayDoubleArray">
+            <summary>Sets the shim of ManhattanDistance.GetDistance(Double[] p, Double[] q)</summary>
+        </member>
+        <member name="T:AForge.Math.Metrics.Fakes.ShimPearsonCorrelation">
+            <summary>Shim type of AForge.Math.Metrics.PearsonCorrelation</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimPearsonCorrelation.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimPearsonCorrelation.#ctor(AForge.Math.Metrics.PearsonCorrelation)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimPearsonCorrelation.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimPearsonCorrelation.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.ShimPearsonCorrelation.Bind(AForge.Math.Metrics.ISimilarity)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimPearsonCorrelation.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimPearsonCorrelation.Constructor">
+            <summary>Sets the shim of PearsonCorrelation.PearsonCorrelation()</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimPearsonCorrelation.GetSimilarityScoreDoubleArrayDoubleArray">
+            <summary>Sets the shim of PearsonCorrelation.GetSimilarityScore(Double[] p, Double[] q)</summary>
+        </member>
+        <member name="T:AForge.Math.Metrics.Fakes.ShimPearsonCorrelation.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AForge.Math.Metrics.Fakes.ShimPearsonCorrelation.AllInstances.GetSimilarityScoreDoubleArrayDoubleArray">
+            <summary>Sets the shim of PearsonCorrelation.GetSimilarityScore(Double[] p, Double[] q)</summary>
+        </member>
+        <member name="T:AForge.Math.Metrics.Fakes.StubIDistance">
+            <summary>Stub type of AForge.Math.Metrics.IDistance</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.StubIDistance.#ctor">
+            <summary>Initializes a new instance of type StubIDistance</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.StubIDistance.afm::AForge#Math#Metrics#IDistance#GetDistance(System.Double[],System.Double[])">
+            <summary>Sets the stub of IDistance.GetDistance(Double[] p, Double[] q)</summary>
+        </member>
+        <member name="F:AForge.Math.Metrics.Fakes.StubIDistance.GetDistanceDoubleArrayDoubleArray">
+            <summary>Sets the stub of IDistance.GetDistance(Double[] p, Double[] q)</summary>
+        </member>
+        <member name="T:AForge.Math.Metrics.Fakes.StubISimilarity">
+            <summary>Stub type of AForge.Math.Metrics.ISimilarity</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.StubISimilarity.#ctor">
+            <summary>Initializes a new instance of type StubISimilarity</summary>
+        </member>
+        <member name="M:AForge.Math.Metrics.Fakes.StubISimilarity.afm::AForge#Math#Metrics#ISimilarity#GetSimilarityScore(System.Double[],System.Double[])">
+            <summary>Sets the stub of ISimilarity.GetSimilarityScore(Double[] p, Double[] q)</summary>
+        </member>
+        <member name="F:AForge.Math.Metrics.Fakes.StubISimilarity.GetSimilarityScoreDoubleArrayDoubleArray">
+            <summary>Sets the stub of ISimilarity.GetSimilarityScore(Double[] p, Double[] q)</summary>
+        </member>
+        <member name="T:AForge.Math.Random.Fakes.ShimExponentialGenerator">
+            <summary>Shim type of AForge.Math.Random.ExponentialGenerator</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.ShimExponentialGenerator.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.ShimExponentialGenerator.#ctor(AForge.Math.Random.ExponentialGenerator)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.ShimExponentialGenerator.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.ShimExponentialGenerator.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.ShimExponentialGenerator.Bind(AForge.Math.Random.IRandomNumberGenerator)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimExponentialGenerator.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimExponentialGenerator.ConstructorSingle">
+            <summary>Sets the shim of ExponentialGenerator.ExponentialGenerator(Single rate)</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimExponentialGenerator.ConstructorSingleInt32">
+            <summary>Sets the shim of ExponentialGenerator.ExponentialGenerator(Single rate, Int32 seed)</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimExponentialGenerator.MeanGet">
+            <summary>Sets the shim of ExponentialGenerator.get_Mean()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimExponentialGenerator.Next">
+            <summary>Sets the shim of ExponentialGenerator.Next()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimExponentialGenerator.RateGet">
+            <summary>Sets the shim of ExponentialGenerator.get_Rate()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimExponentialGenerator.SetSeedInt32">
+            <summary>Sets the shim of ExponentialGenerator.SetSeed(Int32 seed)</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimExponentialGenerator.VarianceGet">
+            <summary>Sets the shim of ExponentialGenerator.get_Variance()</summary>
+        </member>
+        <member name="T:AForge.Math.Random.Fakes.ShimExponentialGenerator.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimExponentialGenerator.AllInstances.MeanGet">
+            <summary>Sets the shim of ExponentialGenerator.get_Mean()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimExponentialGenerator.AllInstances.Next">
+            <summary>Sets the shim of ExponentialGenerator.Next()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimExponentialGenerator.AllInstances.RateGet">
+            <summary>Sets the shim of ExponentialGenerator.get_Rate()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimExponentialGenerator.AllInstances.SetSeedInt32">
+            <summary>Sets the shim of ExponentialGenerator.SetSeed(Int32 seed)</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimExponentialGenerator.AllInstances.VarianceGet">
+            <summary>Sets the shim of ExponentialGenerator.get_Variance()</summary>
+        </member>
+        <member name="T:AForge.Math.Random.Fakes.ShimGaussianGenerator">
+            <summary>Shim type of AForge.Math.Random.GaussianGenerator</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.ShimGaussianGenerator.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.ShimGaussianGenerator.#ctor(AForge.Math.Random.GaussianGenerator)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.ShimGaussianGenerator.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.ShimGaussianGenerator.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.ShimGaussianGenerator.Bind(AForge.Math.Random.IRandomNumberGenerator)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimGaussianGenerator.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimGaussianGenerator.ConstructorSingleSingle">
+            <summary>Sets the shim of GaussianGenerator.GaussianGenerator(Single mean, Single stdDev)</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimGaussianGenerator.ConstructorSingleSingleInt32">
+            <summary>Sets the shim of GaussianGenerator.GaussianGenerator(Single mean, Single stdDev, Int32 seed)</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimGaussianGenerator.MeanGet">
+            <summary>Sets the shim of GaussianGenerator.get_Mean()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimGaussianGenerator.Next">
+            <summary>Sets the shim of GaussianGenerator.Next()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimGaussianGenerator.SetSeedInt32">
+            <summary>Sets the shim of GaussianGenerator.SetSeed(Int32 seed)</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimGaussianGenerator.StdDevGet">
+            <summary>Sets the shim of GaussianGenerator.get_StdDev()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimGaussianGenerator.VarianceGet">
+            <summary>Sets the shim of GaussianGenerator.get_Variance()</summary>
+        </member>
+        <member name="T:AForge.Math.Random.Fakes.ShimGaussianGenerator.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimGaussianGenerator.AllInstances.MeanGet">
+            <summary>Sets the shim of GaussianGenerator.get_Mean()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimGaussianGenerator.AllInstances.Next">
+            <summary>Sets the shim of GaussianGenerator.Next()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimGaussianGenerator.AllInstances.SetSeedInt32">
+            <summary>Sets the shim of GaussianGenerator.SetSeed(Int32 seed)</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimGaussianGenerator.AllInstances.StdDevGet">
+            <summary>Sets the shim of GaussianGenerator.get_StdDev()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimGaussianGenerator.AllInstances.VarianceGet">
+            <summary>Sets the shim of GaussianGenerator.get_Variance()</summary>
+        </member>
+        <member name="T:AForge.Math.Random.Fakes.ShimStandardGenerator">
+            <summary>Shim type of AForge.Math.Random.StandardGenerator</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.ShimStandardGenerator.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.ShimStandardGenerator.#ctor(AForge.Math.Random.StandardGenerator)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.ShimStandardGenerator.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.ShimStandardGenerator.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.ShimStandardGenerator.Bind(AForge.Math.Random.IRandomNumberGenerator)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimStandardGenerator.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimStandardGenerator.Constructor">
+            <summary>Sets the shim of StandardGenerator.StandardGenerator()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimStandardGenerator.ConstructorInt32">
+            <summary>Sets the shim of StandardGenerator.StandardGenerator(Int32 seed)</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimStandardGenerator.MeanGet">
+            <summary>Sets the shim of StandardGenerator.get_Mean()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimStandardGenerator.Next">
+            <summary>Sets the shim of StandardGenerator.Next()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimStandardGenerator.SetSeedInt32">
+            <summary>Sets the shim of StandardGenerator.SetSeed(Int32 seed)</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimStandardGenerator.VarianceGet">
+            <summary>Sets the shim of StandardGenerator.get_Variance()</summary>
+        </member>
+        <member name="T:AForge.Math.Random.Fakes.ShimStandardGenerator.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimStandardGenerator.AllInstances.MeanGet">
+            <summary>Sets the shim of StandardGenerator.get_Mean()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimStandardGenerator.AllInstances.Next">
+            <summary>Sets the shim of StandardGenerator.Next()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimStandardGenerator.AllInstances.SetSeedInt32">
+            <summary>Sets the shim of StandardGenerator.SetSeed(Int32 seed)</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimStandardGenerator.AllInstances.VarianceGet">
+            <summary>Sets the shim of StandardGenerator.get_Variance()</summary>
+        </member>
+        <member name="T:AForge.Math.Random.Fakes.ShimUniformGenerator">
+            <summary>Shim type of AForge.Math.Random.UniformGenerator</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.ShimUniformGenerator.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.ShimUniformGenerator.#ctor(AForge.Math.Random.UniformGenerator)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.ShimUniformGenerator.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.ShimUniformGenerator.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.ShimUniformGenerator.Bind(AForge.Math.Random.IRandomNumberGenerator)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimUniformGenerator.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimUniformGenerator.ConstructorRange">
+            <summary>Sets the shim of UniformGenerator.UniformGenerator(Range range)</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimUniformGenerator.ConstructorRangeInt32">
+            <summary>Sets the shim of UniformGenerator.UniformGenerator(Range range, Int32 seed)</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimUniformGenerator.MeanGet">
+            <summary>Sets the shim of UniformGenerator.get_Mean()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimUniformGenerator.Next">
+            <summary>Sets the shim of UniformGenerator.Next()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimUniformGenerator.RangeGet">
+            <summary>Sets the shim of UniformGenerator.get_Range()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimUniformGenerator.SetSeedInt32">
+            <summary>Sets the shim of UniformGenerator.SetSeed(Int32 seed)</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimUniformGenerator.VarianceGet">
+            <summary>Sets the shim of UniformGenerator.get_Variance()</summary>
+        </member>
+        <member name="T:AForge.Math.Random.Fakes.ShimUniformGenerator.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimUniformGenerator.AllInstances.MeanGet">
+            <summary>Sets the shim of UniformGenerator.get_Mean()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimUniformGenerator.AllInstances.Next">
+            <summary>Sets the shim of UniformGenerator.Next()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimUniformGenerator.AllInstances.RangeGet">
+            <summary>Sets the shim of UniformGenerator.get_Range()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimUniformGenerator.AllInstances.SetSeedInt32">
+            <summary>Sets the shim of UniformGenerator.SetSeed(Int32 seed)</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimUniformGenerator.AllInstances.VarianceGet">
+            <summary>Sets the shim of UniformGenerator.get_Variance()</summary>
+        </member>
+        <member name="T:AForge.Math.Random.Fakes.ShimUniformOneGenerator">
+            <summary>Shim type of AForge.Math.Random.UniformOneGenerator</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.ShimUniformOneGenerator.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.ShimUniformOneGenerator.#ctor(AForge.Math.Random.UniformOneGenerator)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.ShimUniformOneGenerator.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.ShimUniformOneGenerator.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.ShimUniformOneGenerator.Bind(AForge.Math.Random.IRandomNumberGenerator)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimUniformOneGenerator.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimUniformOneGenerator.Constructor">
+            <summary>Sets the shim of UniformOneGenerator.UniformOneGenerator()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimUniformOneGenerator.ConstructorInt32">
+            <summary>Sets the shim of UniformOneGenerator.UniformOneGenerator(Int32 seed)</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimUniformOneGenerator.MeanGet">
+            <summary>Sets the shim of UniformOneGenerator.get_Mean()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimUniformOneGenerator.Next">
+            <summary>Sets the shim of UniformOneGenerator.Next()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimUniformOneGenerator.SetSeedInt32">
+            <summary>Sets the shim of UniformOneGenerator.SetSeed(Int32 seed)</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimUniformOneGenerator.VarianceGet">
+            <summary>Sets the shim of UniformOneGenerator.get_Variance()</summary>
+        </member>
+        <member name="T:AForge.Math.Random.Fakes.ShimUniformOneGenerator.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimUniformOneGenerator.AllInstances.MeanGet">
+            <summary>Sets the shim of UniformOneGenerator.get_Mean()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimUniformOneGenerator.AllInstances.Next">
+            <summary>Sets the shim of UniformOneGenerator.Next()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimUniformOneGenerator.AllInstances.SetSeedInt32">
+            <summary>Sets the shim of UniformOneGenerator.SetSeed(Int32 seed)</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.ShimUniformOneGenerator.AllInstances.VarianceGet">
+            <summary>Sets the shim of UniformOneGenerator.get_Variance()</summary>
+        </member>
+        <member name="T:AForge.Math.Random.Fakes.StubExponentialGenerator">
+            <summary>Stub type of AForge.Math.Random.ExponentialGenerator</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.StubExponentialGenerator.#ctor(System.Single)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.StubExponentialGenerator.#ctor(System.Single,System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.StubExponentialGenerator.InitializeStub">
+            <summary>Initializes a new instance of type StubExponentialGenerator</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.StubExponentialGenerator.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.StubExponentialGenerator.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.StubExponentialGenerator.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AForge.Math.Random.Fakes.StubGaussianGenerator">
+            <summary>Stub type of AForge.Math.Random.GaussianGenerator</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.StubGaussianGenerator.#ctor(System.Single,System.Single)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.StubGaussianGenerator.#ctor(System.Single,System.Single,System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.StubGaussianGenerator.InitializeStub">
+            <summary>Initializes a new instance of type StubGaussianGenerator</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.StubGaussianGenerator.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.StubGaussianGenerator.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.StubGaussianGenerator.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AForge.Math.Random.Fakes.StubIRandomNumberGenerator">
+            <summary>Stub type of AForge.Math.Random.IRandomNumberGenerator</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.StubIRandomNumberGenerator.#ctor">
+            <summary>Initializes a new instance of type StubIRandomNumberGenerator</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.StubIRandomNumberGenerator.afm::AForge#Math#Random#IRandomNumberGenerator#Next">
+            <summary>Sets the stub of IRandomNumberGenerator.Next()</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.StubIRandomNumberGenerator.afm::AForge#Math#Random#IRandomNumberGenerator#SetSeed(System.Int32)">
+            <summary>Sets the stub of IRandomNumberGenerator.SetSeed(Int32 seed)</summary>
+        </member>
+        <member name="F:AForge.Math.Random.Fakes.StubIRandomNumberGenerator.MeanGet">
+            <summary>Sets the stub of IRandomNumberGenerator.get_Mean()</summary>
+        </member>
+        <member name="F:AForge.Math.Random.Fakes.StubIRandomNumberGenerator.Next">
+            <summary>Sets the stub of IRandomNumberGenerator.Next()</summary>
+        </member>
+        <member name="F:AForge.Math.Random.Fakes.StubIRandomNumberGenerator.SetSeedInt32">
+            <summary>Sets the stub of IRandomNumberGenerator.SetSeed(Int32 seed)</summary>
+        </member>
+        <member name="F:AForge.Math.Random.Fakes.StubIRandomNumberGenerator.VarianceGet">
+            <summary>Sets the stub of IRandomNumberGenerator.get_Variance()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.StubIRandomNumberGenerator.afm::AForge#Math#Random#IRandomNumberGenerator#Mean">
+            <summary>Sets the stub of IRandomNumberGenerator.get_Mean()</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.StubIRandomNumberGenerator.afm::AForge#Math#Random#IRandomNumberGenerator#Variance">
+            <summary>Sets the stub of IRandomNumberGenerator.get_Variance()</summary>
+        </member>
+        <member name="T:AForge.Math.Random.Fakes.StubStandardGenerator">
+            <summary>Stub type of AForge.Math.Random.StandardGenerator</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.StubStandardGenerator.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.StubStandardGenerator.#ctor(System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.StubStandardGenerator.InitializeStub">
+            <summary>Initializes a new instance of type StubStandardGenerator</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.StubStandardGenerator.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.StubStandardGenerator.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.StubStandardGenerator.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AForge.Math.Random.Fakes.StubUniformGenerator">
+            <summary>Stub type of AForge.Math.Random.UniformGenerator</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.StubUniformGenerator.#ctor(AForge.Range)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.StubUniformGenerator.#ctor(AForge.Range,System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.StubUniformGenerator.InitializeStub">
+            <summary>Initializes a new instance of type StubUniformGenerator</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.StubUniformGenerator.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.StubUniformGenerator.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.StubUniformGenerator.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AForge.Math.Random.Fakes.StubUniformOneGenerator">
+            <summary>Stub type of AForge.Math.Random.UniformOneGenerator</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.StubUniformOneGenerator.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.StubUniformOneGenerator.#ctor(System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AForge.Math.Random.Fakes.StubUniformOneGenerator.InitializeStub">
+            <summary>Initializes a new instance of type StubUniformOneGenerator</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.StubUniformOneGenerator.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.StubUniformOneGenerator.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AForge.Math.Random.Fakes.StubUniformOneGenerator.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.QualityTools.Testing.Fakes.Delegates.AForgeMathDelegates">
+            <summary>Contains custom delegates used for the stubs and shims of AForge.Math</summary>
+        </member>
+    </members>
+</doc>

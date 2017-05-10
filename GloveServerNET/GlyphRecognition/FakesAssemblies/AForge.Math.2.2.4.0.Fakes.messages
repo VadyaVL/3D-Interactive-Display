@@ -1,0 +1,34 @@
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate stub for AForge.Math.Tools: type is sealed.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate stub for AForge.Math.Statistics: type is sealed.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate stub for AForge.Math.Geometry.LineSegment: type is sealed.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate stub for AForge.Math.FourierTransform: type is sealed.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate stub for AForge.Math.Geometry.Line: type is sealed.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate stub for AForge.Math.Metrics.JaccardDistance: type is sealed.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate stub for AForge.Math.Geometry.GeometryTools: type is sealed.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate stub for AForge.Math.Metrics.PearsonCorrelation: type is sealed.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate stub for AForge.Math.Metrics.EuclideanDistance: type is sealed.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate stub for AForge.Math.Metrics.ManhattanDistance: type is sealed.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate stub for AForge.Math.Vector4: type is a value type.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate stub for AForge.Math.Matrix4x4: type is a value type.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate stub for AForge.Math.Geometry.ShapeType: type is a value type.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate stub for AForge.Math.Geometry.PolygonSubType: type is a value type.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate stub for AForge.Math.Geometry.PointsCloud: type is sealed.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate stub for AForge.Math.Vector3: type is a value type.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate stub for AForge.Math.Metrics.CosineSimilarity: type is sealed.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate stub for AForge.Math.Matrix3x3: type is a value type.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate stub for AForge.Math.Metrics.CosineDistance: type is sealed.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate stub for AForge.Math.Complex: type is a value type.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate stub for AForge.Math.svd: type is not visible to exported or assembly(AForge.Math.2.2.4.0.Fakes).
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate stub for AForge.Math.Metrics.HammingDistance: type is sealed.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate stub for AForge.Math.Metrics.EuclideanSimilarity: type is sealed.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate shim for AForge.Math.Metrics.IDistance: type is an interface.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate shim for AForge.Math.Random.IRandomNumberGenerator: type is an interface.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate shim for AForge.Math.Geometry.LineSegment+ProjectionLocation: type is an enum.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate shim for AForge.Math.FourierTransform+Direction: type is an enum.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate shim for AForge.Math.Geometry.IShapeOptimizer: type is an interface.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate shim for AForge.Math.Metrics.ISimilarity: type is an interface.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate shim for AForge.Math.Geometry.IConvexHullAlgorithm: type is an interface.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate shim for AForge.Math.Geometry.GrahamConvexHull+PointToProcess: type is not visible to exported or assembly(AForge.Math.2.2.4.0.Fakes).
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate shim for AForge.Math.Geometry.ShapeType: type is an enum.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate shim for AForge.Math.Geometry.PolygonSubType: type is an enum.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.Math.fakes : warning : Cannot generate shim for AForge.Math.svd: type is not visible to exported or assembly(AForge.Math.2.2.4.0.Fakes).

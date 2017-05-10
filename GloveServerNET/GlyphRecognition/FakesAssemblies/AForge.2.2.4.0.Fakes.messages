@@ -1,0 +1,15 @@
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.fakes : warning : Cannot generate stub for AForge.IntPoint: type is a value type.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.fakes : warning : Cannot generate stub for AForge.PolishExpression: type is sealed.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.fakes : warning : Cannot generate stub for AForge.DoubleRange: type is a value type.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.fakes : warning : Cannot generate stub for AForge.MessageTransferHandler: type is sealed.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.fakes : warning : Cannot generate stub for AForge.Point: type is a value type.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.fakes : warning : Cannot generate stub for AForge.IntRange: type is a value type.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.fakes : warning : Cannot generate stub for AForge.ThreadSafeRandom: type is sealed.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.fakes : warning : Cannot generate stub for AForge.Range: type is a value type.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.fakes : warning : Cannot generate stub for AForge.Parallel: type is sealed.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.fakes : warning : Cannot generate stub for AForge.SystemTools: type is sealed.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.fakes : warning : Cannot generate stub for AForge.DoublePoint: type is a value type.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.fakes : warning : Cannot generate stub for <PrivateImplementationDetails>{637090EA-06BF-4BD6-AFCD-6AE76086C3BF}: type is not supported because of internal limitations.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.fakes : warning : Cannot generate shim for AForge.MessageTransferHandler: type is a delegate.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.fakes : warning : Cannot generate shim for AForge.Parallel+ForLoopBody: type is a delegate.
+C:\Users\Vadym\Documents\Visual Studio 2013\Projects\GloveServerNET\GlyphRecognition\Fakes\AForge.fakes : warning : Cannot generate shim for <PrivateImplementationDetails>{637090EA-06BF-4BD6-AFCD-6AE76086C3BF}: type is not supported because of internal limitations.
