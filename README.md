@@ -1,5 +1,7 @@
 # 3D Interactive Display
 
+[Завантажити повний код проекту!](https://drive.google.com/file/d/0B9uL21byGFsEWEJqLTNMMk9wUms/view?usp=sharing)
+
 **3D Interactive Display** - система, що дозволяє за допомогою **Glyph** та **5DT Data Glove** здійснювати оберти моделі, яка відображеється на екрані планшету та проектується на 3D голографічну піраміду.
 
 Для роботи системи необхідно:
@@ -25,3 +27,4 @@
 * **GloveServerNET**: MS Visual Studio 2013, Afroge.NET, Driver for 5 DT Glove.
 * **Interactive_3D_Display**: JMonkeyEngine 3.0, niftyGUI, Android SDK.
 * **Poster**: yEd graph editor.
+
