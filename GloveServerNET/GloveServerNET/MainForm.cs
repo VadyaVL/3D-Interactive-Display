@@ -123,7 +123,7 @@ namespace GloveServerNET
                 sum += f;
             }
 
-            return sum / 5;
+           return sum / 5;
         }
 
         public TextBox GetTBGloveStatus()
