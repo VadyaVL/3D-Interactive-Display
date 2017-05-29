@@ -1,6 +1,6 @@
 # 3D Interactive Display
 
-[Завантажити повний код проекту!](https://drive.google.com/file/d/0B9uL21byGFsEWEJqLTNMMk9wUms/view?usp=sharing)
+[Завантажити повний код проекту!](https://drive.google.com/file/d/0B9uL21byGFsEQ2VkV0xnVU0zVmM/view?usp=sharing)
 
 **3D Interactive Display** - система, що дозволяє за допомогою **Glyph** та **5DT Data Glove** здійснювати оберти моделі, яка відображеється на екрані планшету та проектується на 3D голографічну піраміду.
 
